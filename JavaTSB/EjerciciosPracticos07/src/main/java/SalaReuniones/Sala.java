@@ -50,13 +50,10 @@ public class Sala implements Comparable<Sala> {
     @Override
     public String toString() {
         String res="";
-        String ps="";
-        for (int i = 0; i < reuniones.size(); i++) {
-           ps+=reuniones.get(i);
-        }
+
         res+= "\nSala{" +
                 "num=" + num +
-                ps +
+                 ","+reuniones +
                 '}' +"\n";
         return res;
 

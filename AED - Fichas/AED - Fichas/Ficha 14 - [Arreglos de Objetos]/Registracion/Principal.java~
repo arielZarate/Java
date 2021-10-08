@@ -1,0 +1,49 @@
+public class Principal
+{
+    private static Curso a;    
+    public static void main (String args[])
+    {
+        int n;
+        do
+        {
+          System.out.print("¿Cuántos alumnos? (mayor a cero, please): ");
+          n = Consola.readInt();
+        }
+        while(n<=0);
+        a = new Curso(n);
+//        cargar();
+        System.out.print("¿Por encima de qué promedio se aceptan inscriptos?: ");
+        float x = (float)Consola.readDouble();
+        mostrarAceptados(x);        
+        System.out.println("\n\nListado completo (con todos los que se habían inscripto):");
+        System.out.print(a.toString());
+    }    
+    public static void cargar()
+    {
+        System.out.println("Cargue los datos de los alumnos: ");
+        for (int i = 0; i < a.getCantidadInscriptos(); i++)
+        {
+            System.out.print("Legajo: ");
+            int leg = Consola.readInt();            
+            System.out.print("Nombre: ");
+            String nom = Consola.readLine();            
+            System.out.print("Promedio: ");
+            float prom = (float)Consola.readDouble();            
+            Estudiante est = new Estudiante(leg, nom, prom);
+            a.setEstudiante(est, i);
+        }
+    }    
+    public static void mostrarAceptados(float x)
+    {
+        System.out.println("Alumnos aceptados (tienen promedio mayor a " + x + ")\n");
+        a.ordenar();
+        for(int i = 0; i < a.getCantidadInscriptos(); i++)
+        {
+            Estudiante est = a.getEstudiante(i);
+            if (est.getPromedio() > x)
+            {
+                System.out.println(est);
+            }
+        }
+    }
+}

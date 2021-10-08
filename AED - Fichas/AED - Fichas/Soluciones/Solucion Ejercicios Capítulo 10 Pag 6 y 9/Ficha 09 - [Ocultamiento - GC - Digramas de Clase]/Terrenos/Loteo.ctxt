@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Loteo()
+comment1.params=nom
+comment1.target=Loteo(String)
+comment2.target=String\ getNombre()
+comment3.params=nom
+comment3.target=void\ setNombre(String)
+comment4.target=String\ toString()
+comment5.target=void\ procesar()
+numComments=6

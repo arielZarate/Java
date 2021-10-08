@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Tarjeta()
+comment0.text=\nConstructor\ por\ defecto.\ \n\n
+comment1.params=d\ nom
+comment1.target=Tarjeta(int,\ String)
+comment1.text=\nInicializa\ la\ clave\ y\ el\ nombre\ con\ los\ par\u00E1metros\n\n
+comment2.target=int\ getDni()
+comment2.text=\nM\u00E9todo\ de\ acceso\ al\ valor\ del\ dni\n@return\ el\ valor\ del\ dni\ \n\n
+comment3.target=String\ getNombre()
+comment3.text=\nM\u00E9todo\ de\ acceso\ al\ valor\ del\ nombre\n@return\ el\ valor\ del\ nombre\ \n\n
+comment4.params=d
+comment4.target=void\ setDni(int)
+comment4.text=\nM\u00E9todo\ modificador\ del\ dni\n@param\ d\ el\ valor\ a\ almacenar\ como\ dni\ \n\n
+comment5.params=nom
+comment5.target=void\ setNombre(String)
+comment5.text=\nM\u00E9todo\ modificador\ del\ nombre\n@param\ nom\ el\ valor\ a\ almacenar\ como\ nombre\n\n
+comment6.target=String\ toString()
+comment6.text=\nM\u00E9todo\ para\ redefinir\ el\ m\u00E9todo\ toString\ heredado\ desde\ Object\n@return\ \ una\ cadena\ representando\ los\ valores\ contenidos\n\n
+numComments=7

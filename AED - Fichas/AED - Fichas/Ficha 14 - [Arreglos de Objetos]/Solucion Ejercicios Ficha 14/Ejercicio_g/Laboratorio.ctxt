@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Laboratorio()
+comment1.params=nom\ cant
+comment1.target=Laboratorio(String,\ int)
+comment2.params=cant
+comment2.target=Laboratorio(int)
+comment3.target=int\ getCantidad()
+comment4.params=cant
+comment4.target=void\ setCantidad(int)
+comment5.target=String\ getNombre()
+comment6.params=nom
+comment6.target=void\ setNombre(String)
+comment7.target=String\ toString()
+numComments=8

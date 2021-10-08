@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=Votante()
+comment1.params=dni
+comment1.target=Votante(int)
+comment10.params=s
+comment10.target=void\ setSexo(char)
+comment11.target=String\ toString()
+comment12.params=arch
+comment12.target=void\ grabar(RandomAccessFile)
+comment12.text=\nGraba\ los\ datos\ del\ objeto\ en\ un\ archivo.\n@param\ arch\ el\ archivo\ donde\ se\ grabar\u00E1\ el\ objeto,\ que\ debe\ estar\ abierto\ \nen\ un\ modo\ que\ permita\ grabaciones.\n\n
+comment13.params=arch
+comment13.target=void\ leer(RandomAccessFile)
+comment13.text=\nLee\ los\ datos\ del\ objeto\ desde\ un\ archivo.\n@param\ arch\ el\ archivo\ desde\ donde\ se\ leer\u00E1\ el\ objeto,\ que\ debe\ estar\ abierto.\n\n
+comment2.params=dni\ nom\ e\ s
+comment2.target=Votante(int,\ String,\ int,\ char)
+comment3.target=int\ getNumero()
+comment4.target=String\ getNombre()
+comment5.target=int\ getEdad()
+comment6.target=char\ getSexo()
+comment7.params=dni
+comment7.target=void\ setNumero(int)
+comment8.params=nom
+comment8.target=void\ setNombre(String)
+comment9.params=e
+comment9.target=void\ setEdad(int)
+numComments=14

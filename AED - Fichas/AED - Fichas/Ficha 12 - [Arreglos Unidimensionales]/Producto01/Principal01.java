@@ -1,0 +1,53 @@
+public class Principal01
+{
+    private static int v[];
+    
+    public static void main (String args[])
+    {
+        int n, k;
+        do
+        {
+          System.out.print("¿Cuántos elementos? (mayor a cero, please): ");
+          n = Consola.readInt();
+        }
+        while(n<=0);
+        
+        v = new int[n];
+        
+        cargar();
+        System.out.print("Valor k: ");
+        k = Consola.readInt();
+        multiplicar(k);
+        mostrar();
+    }
+    
+    public static void cargar()
+    {
+        int i;
+        System.out.println("Cargue los números del arreglo: ");
+        for (i = 0; i < v.length; i++)
+        {
+            System.out.print("v[" + (i+1) + "]: ");
+            v[i] = Consola.readInt();
+        }
+    }
+    
+    public static void multiplicar(int k)
+    {
+        int i;
+        for (i = 0; i < v.length; i++)
+        {
+            v[i] = v[i] * k;
+        }
+    }
+    
+    public static void mostrar()
+    {
+        int i;
+        System.out.println("\nAsí quedó: ");
+        for (i = 0; i < v.length; i++)
+        {
+            System.out.println("v[" + i + "]: " + v[i]);
+        }
+    }
+}

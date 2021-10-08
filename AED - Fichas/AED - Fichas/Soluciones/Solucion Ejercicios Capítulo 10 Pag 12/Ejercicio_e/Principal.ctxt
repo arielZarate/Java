@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main([)
+comment1.target=void\ cargar()
+comment2.target=void\ mostrar()
+comment3.target=void\ sumar()
+comment4.target=void\ restar()
+comment5.target=void\ multiplicar()
+comment6.target=void\ modulos()
+comment7.target=void\ conjugados()
+numComments=8

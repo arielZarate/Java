@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Comercio()
+comment1.params=nom
+comment1.target=Comercio(String)
+comment2.target=String\ getNombre()
+comment3.params=nom
+comment3.target=void\ setNombre(String)
+comment4.target=void\ procesarVentas()
+comment5.target=int\ cargarVendedor()
+comment6.target=void\ analizar()
+comment7.target=void\ mayorImporte()
+comment8.target=float\ promediarImportes()
+comment9.target=String\ toString()
+numComments=10

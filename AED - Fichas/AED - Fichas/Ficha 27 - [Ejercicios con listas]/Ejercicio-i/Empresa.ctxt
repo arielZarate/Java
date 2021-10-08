@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Empresa()
+comment1.params=nom
+comment1.target=Empresa(String)
+comment10.target=String\ toStringCantidadPorCategoriaYDestino()
+comment11.params=num
+comment11.target=Envio\ buscarEnvio(int)
+comment12.target=String\ toString()
+comment2.params=nom\ n
+comment2.target=Empresa(String,\ int)
+comment3.target=String\ getNombre()
+comment4.target=int\ getCantidadEnvios()
+comment5.params=i
+comment5.target=Envio\ getEnvio(int)
+comment6.params=i\ p
+comment6.target=void\ setEnvio(int,\ Envio)
+comment7.params=x
+comment7.target=void\ importesMayores(float)
+comment8.target=String\ getImportePorTipo()
+comment9.target=Envio\ getEnvio2MayorImporte()
+numComments=13

@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Cliente()
+comment1.params=d\ nom\ imp
+comment1.target=Cliente(int,\ String,\ float)
+comment2.params=d
+comment2.target=Cliente(int)
+comment3.target=int\ getDNI()
+comment4.params=d
+comment4.target=void\ setDNI(int)
+comment5.target=String\ getNombre()
+comment6.params=nom
+comment6.target=void\ setNombre(String)
+comment7.target=float\ getImporte()
+comment8.params=f
+comment8.target=void\ setImporte(float)
+comment9.target=String\ toString()
+numComments=10

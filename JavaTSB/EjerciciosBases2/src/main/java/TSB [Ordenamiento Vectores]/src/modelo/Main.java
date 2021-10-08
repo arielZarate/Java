@@ -7,9 +7,9 @@ public class Main
     {
         long t1, t2, tf;
         int op;
-        
+
         Scanner sc = new Scanner(System.in);
-    	Vector v = null;
+    	modelo.Vector v = null;
     	do
     	{
     	    System.out.println ("\nOpciones de Ordenamiento");
@@ -20,7 +20,7 @@ public class Main
     	    System.out.println ("4. Quick Sort");
     	    System.out.println ("5. Heap Sort");
     	    System.out.println ("6. Shell Sort");
-    	    System.out.println ("7. Merge Sort");    	    
+    	    System.out.println ("7. Merge Sort");
     	    System.out.println ("8. Verificar si esta ordenado");
     	    System.out.println ("9. Salir");
     	    System.out.print ("Ingrese opcion: ");
@@ -30,7 +30,7 @@ public class Main
 				case 0:
 					  System.out.print ("Ingrese cantidad del elementos del vector: ");
 					  int n = sc.nextInt();
-					  v = new Vector(n);
+					  v = new modelo.Vector(n);
 					  System.out.print("Se vuelve a generar el vector...");
 					  v.generate();
 					  System.out.print("\nVector generado...");
@@ -141,5 +141,5 @@ public class Main
     	    }
     	 }
     	 while (op != 9);
-        } 
+        }
 }

@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.params=tam
+comment0.target=Lector(int)
+comment0.text=\nConstructor\ para\ objetos\ de\ la\ clase\ Lector.\ Crea\ un\ vector\ de\ "tam"\ elementos\n\n
+comment1.target=Lector()
+comment1.text=\nConstructor\ por\ defecto\ para\ objetos\ de\ la\ clase\ Lector.\ Crea\ un\ vector\ de\ 10\ Contadores\n\n
+comment2.params=clave
+comment2.target=void\ agregar(int)
+comment2.text=\nBusca\ un\ dni\ en\ el\ vector.\ Si\ lo\ encuentra,\ lo\ cuenta.\ Si\ no\ lo\ encuentra,\ lo\ inserta\ con\ frecuencia\ \=\ 1.\nSi\ no\ hab\u00EDa\ m\u00E1s\ lugar\ en\ el\ arreglo,\ NO\ HACE\ NADA.\n@param\ \ clave\ \ el\ dni\ a\ buscar.\n\n
+comment3.params=t
+comment3.target=void\ agregar(Tarjeta)
+comment3.text=\nBusca\ una\ Tarjeta\ en\ el\ vector.\ Si\ la\ encuentra,\ la\ cuenta.\ Si\ no\ la\ encuentra,\ la\ inserta\ con\ frecuencia\ \=\ 1.\n@param\ \ t\ la\ Tarjeta\ a\ buscar.\n\n
+comment4.target=String\ toString()
+comment4.text=\nM\u00E9todo\ para\ sobrecargar\ toString\ (heredado\ desde\ Object)\n@return\ \ un\ resumen\ del\ contenido\ del\ vector,\ como\ cadena.\n\n
+comment5.params=clave
+comment5.target=int\ buscar(int)
+comment5.text=\nBusca\ un\ dni\ en\ el\ vector.\ Si\ lo\ encuentra,\ retorna\ su\ \u00EDndice,\ y\ si\ no\ lo\ encuentra,\ retorna\ (-1).\n@param\ \ clave\ \ el\ dni\ a\ buscar.\n@return\ el\ \u00EDndice\ con\ la\ posici\u00F3n\ del\ dni,\ o\ (-1)\ si\ no\ lo\ encuentra.\n\n
+comment6.params=t
+comment6.target=int\ buscar(Tarjeta)
+comment6.text=\nBusca\ una\ tarjeta\ en\ el\ vector.\ Si\ la\ encuentra,\ retorna\ su\ \u00EDndice,\ y\ si\ no\ la\ encuentra,\ retorna\ (-1).\ Este\ m\u00E9todo\ \nes\ una\ sobrecarga\ del\ m\u00E9todo\ buscar\ anterior.\ S\u00F3lo\ toma\ el\ dni\ de\ la\ Tarjeta\ que\ entra\ como\ par\u00E1metro,\ e\ invoca\ al\notro\ m\u00E9todo\n@param\ \ t\ \ la\ tarjeta\ a\ buscar.\n@return\ el\ \u00EDndice\ con\ la\ posici\u00F3n\ de\ la\ Tarjeta,\ o\ (-1)\ si\ no\ la\ encuentra.\n\n
+numComments=7

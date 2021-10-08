@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Motocicleta()
+comment1.params=mar\ mod\ pre\ cil
+comment1.target=Motocicleta(String,\ int,\ float,\ int)
+comment2.target=int\ getCilindrada()
+comment3.params=cil
+comment3.target=void\ setCilindrada(int)
+comment4.target=void\ actualizarPrecio()
+comment5.target=String\ toString()
+numComments=6

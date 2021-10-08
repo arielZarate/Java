@@ -119,6 +119,9 @@ public class Vector
           }
     }
 
+
+    //Quicksort: ordenacion rapida
+
     public void quickSort()
     {
           quick(0, v.length-1);

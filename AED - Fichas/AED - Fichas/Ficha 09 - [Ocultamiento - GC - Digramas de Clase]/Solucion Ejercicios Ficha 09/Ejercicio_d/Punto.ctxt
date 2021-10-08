@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Punto()
+comment1.params=cx\ cy
+comment1.target=Punto(float,\ float)
+comment10.target=String\ toString()
+comment2.target=float\ getX()
+comment3.params=cx
+comment3.target=void\ setX(float)
+comment4.target=float\ getY()
+comment5.params=cy
+comment5.target=void\ setY(float)
+comment6.target=int\ getCuadrante()
+comment6.text=\nRetorna\ el\ n\u00FAmero\ de\ cuadrante\ al\ que\ pertenece\ el\npunto.\ Si\ el\ punto\ est\u00E1\ en\ un\ eje\ o\ en\ el\ origen,\nentonces\ el\ m\u00E9todo\ retorna\ un\ cero...\n@return\ el\ n\u00FAmero\ de\ cuadrante\ al\ que\ pertenece\ el\ \npunto,\ o\ cero\ si\ est\u00E1\ en\ un\ eje\ o\ en\ el\ origen.\n\n
+comment7.target=float\ distancia()
+comment7.text=\nCalcula\ la\ distancia\ del\ punto\ al\ origen\ de\ \ncoordenadas.\n@return\ la\ distancia\ del\ punto\ al\ origen\ de\ncoordenadas.\n\n
+comment8.params=pb
+comment8.target=float\ distancia(Punto)
+comment8.text=\nCalcula\ la\ longitud\ del\ segmento\ de\ recta\ que\nune\ al\ punto\ que\ invoca\ al\ m\u00E9todo\ y\ al\ punto\ \npb\ entrado\ como\ par\u00E1metro.\ Es\ decir,\ calcula\ \nla\ distancia\ entre\ esos\ dos\ puntos.\n@param\ pb\ el\ punto\ a\ usar\ para\ calcular\ la\ndistancia\ desde\ el\ punto\ que\ invoca\ al\ m\u00E9todo.\n@return\ la\ distancia\ entre\ los\ dos\ puntos.\n\n
+comment9.params=pb
+comment9.target=float\ pendiente(Punto)
+comment9.text=\nCalcula\ la\ pendiente\ de\ la\ recta\ que\nune\ al\ punto\ que\ invoca\ al\ m\u00E9todo\ y\ al\ punto\ \npb\ entrado\ como\ par\u00E1metro.\ \n@param\ pb\ el\ punto\ a\ usar\ para\ calcular\ la\npendiente.\n@return\ la\ pendiente\ de\ la\ recta\ que\ une\ a\ los\ndos\ puntos.\n\n
+numComments=11

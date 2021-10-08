@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Node()
+comment0.text=\r\n\ \ Constructor\ por\ defecto.\ \r\n
+comment1.params=x\ p
+comment1.target=Node(Paciente,\ Node)
+comment1.text=\r\n\ \ Crea\ un\ nodo\ incializando\ todos\ los\ atributos\ en\ base\ a\ par\u00E1metros\ \r\n
+comment2.params=
+comment2.target=Node\ getNext()
+comment2.text=\r\n\ \ Accede\ a\ la\ direcci\u00F3n\ del\ sucesor\r\n\ \ @return\ la\ direcci\u00F3n\ del\ nodo\ sucesor\r\n
+comment3.params=p
+comment3.target=void\ setNext(Node)
+comment3.text=\r\n\ Cambia\ la\ direcci\u00F3n\ del\ sucesor\r\n\ @param\ p\ direcci\u00F3n\ del\ nuevo\ sucesor\r\n
+comment4.params=
+comment4.target=Paciente\ getInfo()
+comment4.text=\r\n\ \ Accede\ al\ valor\ del\ info\r\n\ \ @return\ el\ valor\ del\ info\r\n
+comment5.params=p
+comment5.target=void\ setInfo(Paciente)
+comment5.text=\r\n\ Cambia\ el\ valor\ del\ info\r\n\ @param\ p\ nuevo\ valor\ del\ info\r\n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\r\n\ Convierte\ el\ contenido\ del\ nodo\ en\ String\r\n\ @return\ el\ contenido\ del\ nodo\ convertido\ en\ String\r\n
+numComments=7

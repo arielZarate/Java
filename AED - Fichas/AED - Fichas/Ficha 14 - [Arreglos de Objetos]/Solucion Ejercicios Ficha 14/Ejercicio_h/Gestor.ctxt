@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Gestor()
+comment1.params=n
+comment1.target=Gestor(int)
+comment2.params=tit\ n
+comment2.target=Gestor(String,\ int)
+comment3.target=String\ getNombre()
+comment4.target=int\ getCantidadProvincias()
+comment5.params=i
+comment5.target=Provincia\ getProvincia(int)
+comment6.params=pr\ i
+comment6.target=void\ setProvincia(Provincia,\ int)
+comment7.target=void\ ordenarPorNombres()
+comment8.target=void\ ordenarPorTemperaturas()
+comment9.target=String\ toString()
+numComments=10

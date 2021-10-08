@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main([)
+comment1.target=void\ cargar()
+comment2.target=void\ promediar()
+comment3.target=void\ mostrar()
+comment4.target=void\ validar()
+numComments=5

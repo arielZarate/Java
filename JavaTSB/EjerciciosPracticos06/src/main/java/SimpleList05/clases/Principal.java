@@ -23,6 +23,8 @@ public class Principal
             a += x.getSaldo();
             b++;
         }
+
+
         float prom = 0;
         if( b != 0 ) prom = a / b;
         System.out.println("Saldo Promedio: " + prom);

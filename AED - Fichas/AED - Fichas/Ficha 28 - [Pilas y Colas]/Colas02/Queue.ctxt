@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Queue()
+comment0.text=\n\ Crea\ una\ cola\ con\ capacidad\ para\ hasta\ 10\ valores.\n
+comment1.params=n
+comment1.target=Queue(int)
+comment1.text=\n\ Crea\ una\ cola\ vac\uFFFDa.\ Constructor\ ya\ anacr\uFFFDnico\:\ el\ par\uFFFDmetro\ n\ ser\uFFFD\ ignorado.\n\ @deprecated\n\ @param\ n\ la\ capacidad\ de\ la\ cola\ a\ crear\ (pero\ ser\uFFFD\ ignorado...)\n
+comment2.params=
+comment2.target=boolean\ empty()
+comment2.text=\n\ Determina\ si\ la\ cola\ est\uFFFD\ vac\uFFFDa.\n\ @return\ true\ si\ la\ cola\ no\ contiene\ ning\uFFFDn\ elemento,\ o\ false\ en\ caso\ contrario.\n
+comment3.params=
+comment3.target=int\ peek()
+comment3.text=\n\ Retorna\ una\ copia\ del\ primer\ elemento\ de\ la\ cola,\ sin\ removerlo\ de\ la\ misma.\ Si\ la\n\ cola\ estaba\ vac\uFFFDa,\ retorna\ el\ valor\ -1.\n\ @returns\ una\ copia\ del\ valor\ ubicado\ al\ principio\ de\ la\ cola\ ,\ o\ el\ valor\ -1\ si\ la\n\ \ \ \ \ \ \ \ \ \ cola\ estaba\ vac\uFFFDa.\n
+comment4.params=
+comment4.target=int\ remove()
+comment4.text=\n\ Remueve\ y\ retorna\ el\ primer\ elemento\ de\ la\ cola.\ Si\ la\ cola\ estaba\ vac\uFFFDa,\ retorna\ \n\ el\ valor\ -1.\n\ @returns\ el\ valor\ ubicado\ principio\ de\ la\ cola,\ o\ el\ valor\ -1\ si\ la\ cola\ estaba\ \n\ \ \ \ \ \ \ \ \ \ vac\uFFFDa.\ El\ elemento\ se\ elimina\ de\ la\ cola.\n
+comment5.params=x
+comment5.target=boolean\ add(int)
+comment5.text=\n\ Agrega\ el\ valor\ x\ en\ el\ fondo\ de\ la\ cola.\ \n\ @returns\ true\ si\ la\ operaci\uFFFDn\ pudo\ hacerse.\ En\ la\ implementaci\uFFFDn\ basada\ en\ listas,\ \n\ \ \ \ \ \ \ \ \ \ el\ m\uFFFDtodo\ siempre\ retorna\ true...\n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\n\ Retorna\ una\ representaci\uFFFDn\ en\ forma\ de\ String\ del\ contenido\ de\ la\ cola.\ Redefine\n\ al\ m\uFFFDtodo\ heredado\ desde\ Object.\n\ @returns\ una\ representaci\uFFFDn\ de\ la\ cola\ en\ forma\ de\ String.\n
+numComments=7

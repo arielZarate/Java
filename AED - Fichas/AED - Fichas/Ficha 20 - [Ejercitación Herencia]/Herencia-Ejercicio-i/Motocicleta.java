@@ -1,0 +1,32 @@
+public class Motocicleta extends Vehiculo
+{
+   private int cilindrada;
+ public Motocicleta(String marca, int modelo, float precio, int cilindrada)
+    {
+        super(marca,modelo,precio);
+        this.cilindrada=cilindrada;
+    }
+public Motocicleta()
+{
+}
+public int getCilindada()
+{
+    return cilindrada;
+}
+public void setCilindrada(int cilin)
+{
+    cilindrada=cilin;
+}
+
+public void actualizarPrecio ()
+    {
+       float p = getPrecio();
+       float a = p * 0.02f;
+       p += a;
+       if (getModelo() > 2008)
+       {
+            p += p*0.01f;    
+       }
+       setPrecio(p);
+    }
+}

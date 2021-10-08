@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Concesionaria()
+comment0.text=\nConstructor\ por\ defecto.\ Crea\ un\ arreglo\ de\ tama\u00F1o\ dos,\ con\ referencias\ null.\n\n
+comment1.params=nom\ n
+comment1.target=Concesionaria(String,\ int)
+comment1.text=\nCrea\ un\ arreglo\ de\ referencias\ polimorficas,\ dejando\ null\ en\ cada\ casilla.\ Si\ n\ es\ es\ cero\ \no\ negativo,\ el\ tama\u00F1o\ se\ deja\ en\ cinco.\n@param\ nom\ el\ nombre\ de\ la\ concesionaria.\n@param\ n\ el\ tama\u00F1o\ del\ arreglo\ de\ veh\u00EDculos\ de\ carga.\ \n\n
+comment2.target=int\ getCantidad()
+comment2.text=\nRetorna\ la\ cantidad\ de\ veh\u00EDculos\ que\ tiene\ la\ concesionaria.\n@return\ un\ int\ con\ la\ cantidad\ de\ veh\u00EDculos.\n\n
+comment3.params=i
+comment3.target=Vehiculo\ getVehiculo(int)
+comment3.text=\nRecupera\ un\ veh\u00EDculo.\n@param\ i\ la\ posici\u00F3n\ desde\ la\ que\ se\ recupera\ el\ veh\u00EDculo.\n@return\ una\ referencia\ al\ Vehiculo\ recuperado,\ o\ null\ si\ la\ posici\u00F3n\ pedida\ no\ era\ v\u00E1lida\ o\ en\ esa\ncasilla\ no\ hab\u00EDa\ un\ Vehiculo.\n\n
+comment4.params=vh\ i
+comment4.target=void\ setVehiculo(Vehiculo,\ int)
+comment4.text=\nAgrega\ un\ veh\u00EDculo\ a\ la\ concesionaria.\n@param\ vh\ el\ veh\u00EDculo\ a\ agregar.\n@param\ i\ la\ posici\u00F3n\ en\ la\ que\ se\ agrega\ el\ veh\u00EDculo.\n\n
+comment5.target=void\ actualizarPrecios()
+comment5.text=\nActualiza\ los\ precios\ de\ todos\ los\ veh\u00EDculos.\n\n
+comment6.params=car
+comment6.target=Vehiculo\ buscarVehiculoDeCarga(float)
+comment6.text=\nBusca\ un\ Vehiculo\ de\ Carga\ cuya\ capacidad\ de\ carga\ sea\ superior\ al\ par\u00E1metro\ car.\ Retorna\nel\ primer\ objeto\ que\ cumpla\ esa\ condici\u00F3n,\ sin\ importar\ si\ existen\ otros\ m\u00E1s\ adelante\ en\ \nel\ vector.\ \n@param\ car\ la\ capacidad\ de\ carga\ que\ se\ busca.\n@return\ una\ referencia\ al\ primer\ vehiculo\ de\ carga\ que\ supere\ la\ capacidad\ dada,\ o\ null\ si\ \nno\ hay\ vehiculos\ de\ carga\ que\ superen\ esa\ capacidad.\n\n
+comment7.params=vh
+comment7.target=int\ conteo(Vehiculo)
+comment7.text=\nDetermina\ cu\u00E1ntos\ veh\u00EDculos\ hay\ de\ la\ misma\ clase\ que\ el\ que\ viene\ como\ par\u00E1metro.\n@param\ vh\ una\ referencia\ al\ veh\u00EDculo\ usado\ para\ determinar\ cu\u00E1ntos\ hay\ de\ su\ misma\ clase.\n@return\ la\ cantidad\ de\ veh\u00EDculos\ del\ vector,\ de\ la\ misma\ clase\ que\ el\ tomado\ como\ par\u00E1metro.\ Si\ el\ \npar\u00E1metro\ es\ null,\ se\ retornar\u00E1\ un\ cero.\n\n
+comment8.target=String\ toString()
+comment8.text=\nRetorna\ una\ cadena\ con\ todos\ los\ datos\ contenidos\ en\ el\ arreglo.\n@return\ un\ String\ listo\ para\ ser\ visualizado.\n\n
+numComments=9

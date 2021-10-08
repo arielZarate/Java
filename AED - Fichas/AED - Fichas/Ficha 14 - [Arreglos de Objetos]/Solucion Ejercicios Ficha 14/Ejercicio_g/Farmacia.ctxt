@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Farmacia()
+comment1.params=n
+comment1.target=Farmacia(int)
+comment10.target=String\ toString()
+comment2.params=tit\ n
+comment2.target=Farmacia(String,\ int)
+comment3.target=String\ getNombre()
+comment4.target=int\ getCantidadLaboratorios()
+comment5.params=i
+comment5.target=Laboratorio\ getLaboratorio(int)
+comment6.params=lab\ i
+comment6.target=void\ setLaboratorio(Laboratorio,\ int)
+comment7.target=int\ getCantidadRemedios()
+comment8.target=void\ ordenar()
+comment9.params=nom
+comment9.target=Laboratorio\ buscar(String)
+numComments=11

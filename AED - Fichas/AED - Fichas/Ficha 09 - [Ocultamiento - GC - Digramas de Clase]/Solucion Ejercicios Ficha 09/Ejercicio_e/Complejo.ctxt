@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=Complejo()
+comment1.params=pr\ pi
+comment1.target=Complejo(float,\ float)
+comment10.target=Complejo\ conjugado()
+comment11.target=String\ toString()
+comment2.target=float\ getReal()
+comment3.params=pr
+comment3.target=void\ setReal(float)
+comment4.target=float\ getImaginaria()
+comment5.params=pi
+comment5.target=void\ setImaginaria(float)
+comment6.params=cb
+comment6.target=Complejo\ sumar(Complejo)
+comment7.params=cb
+comment7.target=Complejo\ restar(Complejo)
+comment8.params=cb
+comment8.target=Complejo\ multiplicar(Complejo)
+comment9.target=float\ modulo()
+numComments=12

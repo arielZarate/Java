@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Estudiante()
+comment1.params=leg\ nom\ prom
+comment1.target=Estudiante(int,\ String,\ float)
+comment2.params=leg
+comment2.target=Estudiante(int)
+comment3.target=int\ getLegajo()
+comment4.params=leg
+comment4.target=void\ setLegajo(int)
+comment5.target=String\ getNombre()
+comment6.params=nom
+comment6.target=void\ setNombre(String)
+comment7.target=float\ getPromedio()
+comment8.params=prom
+comment8.target=void\ setPromedio(float)
+comment9.target=String\ toString()
+numComments=10

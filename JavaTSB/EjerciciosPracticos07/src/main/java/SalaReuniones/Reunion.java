@@ -1,7 +1,7 @@
 package SalaReuniones;
 
 
-import java.text.DateFormat;
+
 import java.text.SimpleDateFormat;
 import java.util.*;
 
@@ -20,23 +20,21 @@ public class Reunion implements Comparable<Reunion> {
      * horario de tipo Date
      * un array Persona de Tipo ArrayList<>()
      */
-    private ArrayList<Calendar> horario=new ArrayList<>();
+    private Calendar horario;
     private ArrayList<Persona> participantes;
 
-    public Reunion() {
 
-    }
 
     //Prestar atencion como ingresa el horario lo agrego en el contructor como un solo param
     // y no como un arrayList  en cambio los participantes si  entran el lista
-    public Reunion(Calendar horario, ArrayList<Persona> participantes) {
-        this.horario.add(horario);
-        this.participantes = participantes;
+    public Reunion(Calendar horario, ArrayList<Persona> array) {
+        this.horario=horario;
+        this.participantes=array ;
     }
 
 
 
-    public ArrayList<Calendar> getHorario()
+    public Calendar getHorario()
     {
 
         return this.horario;
@@ -54,9 +52,9 @@ public class Reunion implements Comparable<Reunion> {
     }
 
    */
-    public void setHorario(int x, Calendar horario) {
+    public void setHorario( Calendar horario) {
 
-        this.horario.set(x, horario);
+        this.horario=horario;
     }
 
     public ArrayList<Persona> getParticipantes() {
@@ -104,22 +102,6 @@ public class Reunion implements Comparable<Reunion> {
     }
 
 
-    public ArrayList<String> converterStringHorario()
-    {
-        ArrayList<String> horarioStr=new ArrayList<>();
-        for (int i = 0; i < horario.size() ; i++) {
-            /**
-             aplicamos el formateador
-             */
-
-            horarioStr.add(FormatearHora(horario.get(i)));
-        }
-        return horarioStr;
-    }
-
-
-
-
 
 
 
@@ -130,29 +112,32 @@ public class Reunion implements Comparable<Reunion> {
      * @return
      */
     @Override
-
-
     public String toString() {
-        String res = null;
-        res = "";
+        return "\nReunion{" +
+                 "horario: " + FormatearHora(horario) +
+                " \nparticipantes de la reunion:\n" + participantes +
+                '}';
+    }
 
-        //todoe esto es pàra mostrarlo en una lista hacia abajo
+    /*
+    @Override
+    public String toString() {
+        String res = "";
+      //todoe esto es pàra mostrarlo en una lista hacia abajo
         String ps = " ";
-
-
-                for (int i = 0; i < participantes.size(); i++) {
-                ps +=  participantes.get(i) + " ";
+         for (int i = 0; i < participantes.size(); i++) {
+                ps =ps+  participantes.get(i) + " ";
 
         }
         String ps2="2";
                 for (int j = 0; j < horario.size(); j++) {
                     ps2 +=  "\n Horario: " + FormatearHora(horario.get(j)) + " hs"+
                             "\n" + ps ;
+                    res+= "\nReunion{" +ps2 +"}";
                 }
-        res+= "\nReunion{" +ps2 +"}";
-        return res;
+        return ps;
 
-        }
+        }*/
 
 
 
@@ -194,20 +179,21 @@ public class Reunion implements Comparable<Reunion> {
 
 
 
+    /*
     public void ListaOrdenado()
     {
         //horario.sort((h1,h2)-> h1.compareTo(h2));
         ArrayList <String> hs=converterStringHorario();
-        /**
-         *no lo esta ordenando
-         */
+
         hs.sort((h1,h2)-> h1.compareTo(h2));
         for (int i = 0; i < hs.size(); i++) {
 
-            System.out.println();
+        System.out.println();
 
-        }
     }
+}
+     */
+
 
     @Override
     public int compareTo(Reunion o) {

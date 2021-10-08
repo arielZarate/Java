@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=Paciente()
+comment1.params=hc
+comment1.target=Paciente(int)
+comment10.params=c
+comment10.target=void\ setCodigo(int)
+comment11.target=String\ toString()
+comment2.params=hc\ nom\ f\ c
+comment2.target=Paciente(int,\ String,\ int,\ int)
+comment3.target=int\ getNumero()
+comment4.target=String\ getNombre()
+comment5.target=int\ getFecha()
+comment6.target=int\ getCodigo()
+comment7.params=hc
+comment7.target=void\ setNumero(int)
+comment8.params=nom
+comment8.target=void\ setNombre(String)
+comment9.params=f
+comment9.target=void\ setFecha(int)
+numComments=12

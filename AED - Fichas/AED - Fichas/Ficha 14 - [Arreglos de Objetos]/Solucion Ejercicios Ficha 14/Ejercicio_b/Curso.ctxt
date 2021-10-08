@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Curso()
+comment1.params=n
+comment1.target=Curso(int)
+comment2.params=tit\ n
+comment2.target=Curso(String,\ int)
+comment3.target=int\ getCantidadInscriptos()
+comment4.params=i
+comment4.target=Estudiante\ getEstudiante(int)
+comment5.params=est\ i
+comment5.target=void\ setEstudiante(Estudiante,\ int)
+comment6.target=void\ ordenar()
+comment7.params=leg
+comment7.target=Estudiante\ buscar(int)
+comment8.target=Estudiante\ menorPromedio()
+comment9.target=String\ toString()
+numComments=10

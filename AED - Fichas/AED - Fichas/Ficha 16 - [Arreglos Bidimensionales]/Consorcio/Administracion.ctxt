@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Administracion()
+comment1.params=nom
+comment1.target=Administracion(String)
+comment2.target=String\ getNombre()
+comment3.params=nom
+comment3.target=void\ setNombre(String)
+comment4.params=propiedad\ mes
+comment4.target=Consumo\ getGastos(int,\ int)
+comment5.params=g\ propiedad\ mes
+comment5.target=void\ setGastos(Consumo,\ int,\ int)
+comment6.target=void\ generarGastosAleatorios()
+comment7.target=String\ toString()
+comment8.target=String\ toStringTotalPorPropiedad()
+comment9.target=String\ toStringTotalPorMes()
+numComments=10

@@ -15,8 +15,6 @@ public class ClaseOrdenada {
             dateArray.sort((d1,d2) -> d1.compareTo(d2));
             System.out.println("The Object after sorting is : "
                     + dateArray);
-
-
         }
 
 

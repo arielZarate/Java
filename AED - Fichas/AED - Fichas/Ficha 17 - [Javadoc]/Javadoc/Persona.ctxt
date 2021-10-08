@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=nom\ ed
+comment0.target=Persona(String,\ int)
+comment0.text=\nCrea\ un\ objeto\ con\ los\ valores\ de\ susu\ atributos\ tomados\ como\ par\u00E1metro.\n@param\ nom\ \ el\ nombre\ de\ la\ Persona.\n@param\ ed\ \ la\ edad\ de\ la\ Persona.\n\n
+comment1.target=String\ getNombre()
+comment1.text=\nRetorna\ el\ nombre\ de\ la\ Persona\ representada.\n@return\ un\ String\ con\ el\ nombre\ de\ la\ persona.\n\n
+comment2.target=int\ getEdad()
+comment2.text=\nRetorna\ la\ edad\ de\ la\ Persona\ representada.\n@return\ un\ n\u00FAmero\ entero\ con\ el\ valor\ de\ la\ edad\ de\ la\ persona.\n\n
+comment3.params=nom
+comment3.target=void\ setNombre(String)
+comment3.text=\nPermite\ cambiar\ el\ nombre\ de\ la\ Persona.\n@param\ nom\ el\ nuevo\ nombre.\n\n
+comment4.params=ed
+comment4.target=void\ setEdad(int)
+comment4.text=\nPermite\ cambiar\ la\ edad\ de\ la\ Persona.\n@param\ ed\ la\ nueva\ edad.\n\n
+comment5.target=String\ toString()
+comment5.text=\nArma\ y\ retorna\ una\ cadena\ sencilla\ con\ el\ contenido\ del\ objeto,\ lista\ para\ ser\ visualizada\ si\ fuera\ necesario.\n@return\ la\ representaci\u00F3n\ como\ String\ del\ contenido\ del\ objeto.\n\n
+numComments=6

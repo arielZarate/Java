@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=char\ readChar()
+comment0.text=\nLee\ desde\ el\ teclado\ de\ consola\ un\ caracter\ simple\ y\ lo\ retorna.\ Si\ ocurre\ alg\u00FAn\ problema\ mientras\ se\ efect\u00FAa\ \nla\ lectura,\ el\ m\u00E9todo\ retornar\u00E1\ un\ caracter\ de\ espacio\ en\ blanco.\n@return\ un\ valor\ char\ con\ el\ caracter\ leido\ desde\ el\ teclado\ de\ consola.\n\n
+comment1.target=String\ readLine()
+comment1.text=\nLee\ y\ retorna\ un\ String\ desde\ teclado.\ La\ lectura\ se\ da\ por\ concluida\ al\ introducir\ un\ salto\ de\ linea\ (es\ decir,\ \nal\ presionar\ <Enter>).\n@return\ el\ String\ leido\ (sin\ el\ salto\ de\ linea).\n\n
+comment2.target=int\ readInt()
+comment2.text=\nLee\ un\ integer\ desde\ teclado.\ La\ lectura\ se\ da\ por\ concluida\ al\ introducir\ un\ salto\ de\ linea\ (es\ decir,\ \nal\ presionar\ <Enter>).\ Si\ la\ secuencia\ inctroducida\ por\ teclado\ NO\ ES\ un\ n\u00FAmero\ entero,\ el\ m\u00E9todo\ ignorar\u00E1\ \nla\ carga\ y\ emitir\u00E1\ un\ mensaje\ solicitando\ una\ nueva\ carga.\n@return\ el\ valor\ cargado,\ como\ un\ valor\ int.\n\n
+comment3.target=double\ readDouble()
+comment3.text=\nLee\ un\ double\ desde\ teclado.\ La\ lectura\ se\ da\ por\ concluida\ al\ introducir\ un\ salto\ de\ linea\ (es\ decir,\ \nal\ presionar\ <Enter>).\ Si\ la\ secuencia\ inctroducida\ por\ teclado\ NO\ ES\ un\ n\u00FAmero\ double\ v\u00E1lido,\ el\ m\u00E9todo\ ignorar\u00E1\ \nla\ carga\ y\ emitir\u00E1\ un\ mensaje\ solicitando\ una\ nueva\ carga.\n@return\ el\ valor\ cargado,\ como\ un\ valor\ double.\n\n
+numComments=4

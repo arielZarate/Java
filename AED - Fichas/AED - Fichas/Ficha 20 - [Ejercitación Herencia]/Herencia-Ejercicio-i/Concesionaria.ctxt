@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=Concesionaria()
+comment0.text=\nConstructor\ por\ defecto.\ Crea\ los\ dos\ arreglos\ de\ tama\u00F1o\ dos.\n\n
+comment1.params=nom\ n\ m
+comment1.target=Concesionaria(String,\ int,\ int)
+comment1.text=\nCrea\ un\ arreglo\ de\ veh\u00EDculos\ de\ carga\ de\ n\ elementos,\ y\ uno\ de\ \nveh\u00EDculos\ particulares\ de\ m\ elementos.\ Si\ uno\ de\ los\ dos\ par\u00E1metros\nes\ cero\ o\ negativo,\ el\ tama\u00F1o\ se\ deja\ en\ cinco.\n@param\ nom\ el\ nombre\ de\ la\ concesionaria.\n@param\ n\ el\ tama\u00F1o\ del\ arreglo\ de\ veh\u00EDculos\ de\ carga.\n@param\ m\ el\ tama\u00F1o\ del\ arreglo\ de\ veh\u00EDculos\ particulares.\n\n
+comment2.target=int\ getCantidadCarga()
+comment2.text=\nRetorna\ la\ cantidad\ de\ veh\u00EDculos\ de\ carga\ que\ tiene\ la\ concesionaria.\n@return\ un\ int\ con\ la\ cantidad\ de\ veh\u00EDculos\ de\ carga.\n\n
+comment3.target=int\ getCantidadParticular()
+comment3.text=\nRetorna\ la\ cantidad\ de\ veh\u00EDculos\ particulaes\ que\ tiene\ la\ concesionaria.\n@return\ un\ int\ con\ la\ cantidad\ de\ veh\u00EDculos\ particulares.\n\n
+comment4.params=cg\ i
+comment4.target=void\ setCarga(Carga,\ int)
+comment4.text=\nAgrega\ un\ veh\u00EDculo\ de\ carga\ a\ la\ concesionaria.\n@param\ cg\ el\ veh\u00EDculo\ a\ agregar.\n@param\ i\ la\ posici\u00F3n\ en\ la\ que\ se\ agrega\ el\ veh\u00EDculo.\n\n
+comment5.params=pr\ i
+comment5.target=void\ setParticular(Particular,\ int)
+comment5.text=\nAgrega\ un\ veh\u00EDculo\ particular\ a\ la\ concesionaria.\n@param\ pr\ el\ veh\u00EDculo\ a\ agregar.\n@param\ i\ la\ posici\u00F3n\ en\ la\ que\ se\ agrega\ el\ veh\u00EDculo.\n\n
+comment6.target=void\ actualizarPreciosCarga()
+comment6.text=\nActualiza\ los\ precios\ de\ todos\ los\ veh\u00EDculos\ de\ carga.\n\n
+comment7.target=void\ actualizarPreciosParticular()
+comment7.text=\nActualiza\ los\ precios\ de\ todos\ los\ veh\u00EDculos\ particulares.\n\n
+comment8.target=String\ toString()
+comment8.text=\nRetorna\ una\ cadena\ con\ todos\ los\ datos\ contenidos\ en\ ambos\ arreglos.\n@return\ un\ String\ listo\ para\ ser\ visualizado.\n\n
+numComments=9

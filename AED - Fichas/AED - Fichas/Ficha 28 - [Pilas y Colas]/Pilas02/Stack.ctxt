@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Stack()
+comment0.text=\nCrea\ una\ pila\ vac\u00EDa\ (frente\ \=\ null)\n\n
+comment1.params=n
+comment1.target=Stack(int)
+comment1.text=\nCrea\ una\ pila\ vac\u00EDa.\ Este\ constructor\ ya\ no\ tiene\ sentido,\ pues\ el\ tama\u00F1o\ de\ la\ pila\ \nser\u00E1\ ignorado...\ \n@deprecated\n@param\ n\ la\ capacidad\ de\ la\ pila\ a\ crear.\ Ser\u00E1\ ignorado,\ creando\ una\ pila\ vac\u00EDa\n\n
+comment2.target=boolean\ empty()
+comment2.text=\nDetermina\ si\ la\ pila\ est\u00E1\ vac\u00EDa.\n@return\ true\ si\ la\ pila\ no\ contiene\ ning\u00FAn\ elemento,\ o\ false\ en\ caso\ contrario.\n\n
+comment3.target=char\ peek()
+comment3.text=\nRetorna\ una\ copia\ del\ primer\ elemento\ de\ la\ pila,\ sin\ removerlo\ de\ la\ misma.\ Si\ la\npila\ estaba\ vac\u00EDa,\ retorna\ el\ caracter\ nulo\ ('\u0000').\n@returns\ una\ copia\ del\ valor\ ubicado\ en\ el\ tope\ de\ la\ pila,\ o\ el\ valor\ \u0000\ si\ la\npila\ estaba\ vac\u00EDa.\n\n
+comment4.target=char\ pop()
+comment4.text=\nRemueve\ y\ retorna\ el\ primer\ elemento\ de\ la\ pila.\ Si\ la\ pila\ estaba\ vac\u00EDa,\ retorna\ \nel\ caracter\ nulo\ ('\u0000').\n@returns\ el\ valor\ ubicado\ en\ el\ tope\ de\ la\ pila,\ o\ el\ valor\ \u0000\ si\ la\ pila\ estaba\ \nvac\u00EDa.\ El\ elemento\ se\ elimina\ de\ la\ pila.\n\n
+comment5.params=x
+comment5.target=boolean\ push(char)
+comment5.text=\nAgrega\ el\ valor\ x\ en\ el\ tope\ de\ la\ pila.\ \n@returns\ true\ si\ la\ operaci\u00F3n\ pudo\ hacerse.\ En\ rigor,\ no\ hay\ forma\ que\ retorne\notra\ cosa,\ pero\ se\ mantiene\ esta\ cabecera\ del\ m\u00E9todo\ por\ razones\ de\ compatibilidad\ncon\ la\ versi\u00F3n\ basada\ en\ arreglo.\n@param\ x\ el\ valor\ a\ insertar\ en\ la\ pila.\n\n
+comment6.target=String\ toString()
+comment6.text=\nRetorna\ una\ representaci\u00F3n\ en\ forma\ de\ String\ del\ contenido\ de\ la\ pila.\ Redefine\nal\ m\u00E9todo\ heredado\ desde\ Object.\n@returns\ una\ representaci\u00F3n\ de\ la\ pila\ en\ forma\ de\ String.\n\n
+numComments=7

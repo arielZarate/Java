@@ -5,163 +5,44 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0c314c2-c251-430a-9065-c32d4b292426" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/JavaTSB.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Colecciones2/src/main/java/Comparable/Array.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Colecciones2/src/main/java/Comparable/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Colecciones2/src/main/java/Comparable/Corriente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Colecciones2/src/main/java/Comparable/Cuenta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Colecciones2/src/main/java/Comparable/Inversion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Colecciones2/src/main/java/Comparable/Principal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Colecciones2/src/main/java/ListasGenericas/src/main/java/ListaGenerica/PrincipalListaGenerica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Colecciones2/src/main/java/VectorDeEnterosFor/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Colecciones2/src/main/java/VectorDeEnterosFor/Persona.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ejercicios Bases/HolaMundo/HolaMundo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ejercicios Bases/TSB [Ordenamiento Vectores]/TSB [Ordenamiento].iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ejercicios Bases/TSB [Ordenamiento Vectores]/src/TSB [Ordenamiento].iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ejercicios Bases/claseScanner/claseScanner.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ArrayList/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ArrayList/.idea/Programacion.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ArrayList/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ArrayList/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ArrayList/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ArrayList/.idea/project-template.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ArrayList/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ArrayList/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ArrayList/ArrayList.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ArrayList/out/production/ArrayList/ArraysList/ListaNumeros.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ArrayList/src/ArraysList/ListaNumeros.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ArreglosCondicionales/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ArreglosCondicionales/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ArreglosCondicionales/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ArreglosCondicionales/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ArreglosCondicionales/.idea/project-template.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ArreglosCondicionales/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ArreglosCondicionales/ArreglosCondicionales.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ArreglosCondicionales/out/production/ArreglosCondicionales/Switch/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ArreglosCondicionales/out/production/ArreglosCondicionales/ciclos/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ArreglosCondicionales/src/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ArreglosCondicionales/src/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ArreglosCondicionales/src/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ArreglosCondicionales/src/Arrays/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ArreglosCondicionales/src/Arrays/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ArreglosCondicionales/src/Arrays/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ArreglosCondicionales/src/Arrays/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ArreglosCondicionales/src/Arrays/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ArreglosCondicionales/src/Arrays/Persona.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ArreglosCondicionales/src/ArreglosCondicionales.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ArreglosCondicionales/src/Switch/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ArreglosCondicionales/src/ciclos/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ArreglosCondicionales/src/out/production/ArreglosCondicionales/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ArreglosCondicionales/src/out/production/ArreglosCondicionales/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ArreglosCondicionales/src/out/production/ArreglosCondicionales/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ArreglosCondicionales/src/out/production/ArreglosCondicionales/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ArreglosCondicionales/src/out/production/ArreglosCondicionales/Arrays/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ArreglosCondicionales/src/out/production/ArreglosCondicionales/ArreglosCondicionales.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ArreglosCondicionales/src/out/production/ArreglosCondicionales/Switch/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ArreglosCondicionales/src/out/production/ArreglosCondicionales/ciclos/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CalendarioJava/CalendarioMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EjerciciosPracticos03/src/module-info.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ProcesosBasicosArreglo/Arreglo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProcesosBasicosArreglo/Arreglo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ProcesosBasicosArreglo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProcesosBasicosArreglo/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ProcesosBasicosArreglo/Arreglo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ProcesosBasicosArreglo/Arreglo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ProcesosBasicosArreglo/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ProcesosBasicosArreglo/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HolaMundo/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HolaMundo/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HolaMundo/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HolaMundo/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HolaMundo/.idea/project-template.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HolaMundo/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HolaMundo/HolaMundo.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HolaMundo/out/production/HolaMundo/HolaMundo/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HolaMundo/src/HolaMundo/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HolaMundo/src/HolaMundo/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MedidasDePosicionCentrales/Principal_X_me_md.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Poo/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Poo/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Poo/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Poo/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Poo/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Poo/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Poo/src/main/java/PolimorfismoMio/Aguila.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Poo/src/main/java/PolimorfismoMio/Animal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Poo/src/main/java/PolimorfismoMio/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Poo/src/main/java/PolimorfismoMio/Oso.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Poo/src/main/java/PolimorfismoMio/Pescado.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Poo/src/main/java/TSBHerencia/Corriente.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Poo/src/main/java/TSBHerencia/Cuenta.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Poo/src/main/java/TSBHerencia/Inversion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Poo/src/main/java/TSBHerencia/Principal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Poo/src/main/java/polimorfismoProfe/Alumno.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Poo/src/main/java/polimorfismoProfe/Docente.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Poo/src/main/java/polimorfismoProfe/Persona.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Poo/src/main/java/polimorfismoProfe/Principal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Poo/src/main/java/poo/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Poo/src/main/java/poo/Persona.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Poo/target/classes/PolimorfismoMio/Aguila.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Poo/target/classes/PolimorfismoMio/Animal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Poo/target/classes/PolimorfismoMio/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Poo/target/classes/PolimorfismoMio/Oso.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Poo/target/classes/PolimorfismoMio/Pescado.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Poo/target/classes/TSBHerencia/Corriente.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Poo/target/classes/TSBHerencia/Cuenta.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Poo/target/classes/TSBHerencia/Inversion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Poo/target/classes/TSBHerencia/Principal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Poo/target/classes/polimorfismoProfe/Alumno.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Poo/target/classes/polimorfismoProfe/Docente.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Poo/target/classes/polimorfismoProfe/Persona.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Poo/target/classes/polimorfismoProfe/Principal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Poo/target/classes/poo/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Poo/target/classes/poo/Persona.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProcesamientoPorLote/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TSB [Comparable]/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TSB [Comparable]/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TSB [Comparable]/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TSB [Comparable]/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TSB [Comparable]/TSB [Comparable].iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TSB [Comparable]/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TSB [Comparable]/src/main/java/clases/Array.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TSB [Comparable]/src/main/java/clases/Cliente.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TSB [Comparable]/src/main/java/clases/Corriente.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TSB [Comparable]/src/main/java/clases/Cuenta.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TSB [Comparable]/src/main/java/clases/Inversion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TSB [Comparable]/src/main/java/clases/Principal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TSB [Comparable]/target/classes/clases/Array.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TSB [Comparable]/target/classes/clases/Cliente.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TSB [Comparable]/target/classes/clases/Corriente.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TSB [Comparable]/target/classes/clases/Cuenta.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TSB [Comparable]/target/classes/clases/Inversion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TSB [Comparable]/target/classes/clases/Principal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TSB [Ordenamiento Vectores]/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TSB [Ordenamiento Vectores]/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TSB [Ordenamiento Vectores]/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TSB [Ordenamiento Vectores]/.idea/dictionaries/anastrub.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TSB [Ordenamiento Vectores]/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TSB [Ordenamiento Vectores]/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TSB [Ordenamiento Vectores]/.idea/project-template.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TSB [Ordenamiento Vectores]/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TSB [Ordenamiento Vectores]/TSB [Ordenamiento].iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TSB [Ordenamiento Vectores]/out/production/TSB [Ordenamiento]/modelo/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TSB [Ordenamiento Vectores]/out/production/TSB [Ordenamiento]/modelo/Vector.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TSB [Ordenamiento Vectores]/src/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TSB [Ordenamiento Vectores]/src/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TSB [Ordenamiento Vectores]/src/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TSB [Ordenamiento Vectores]/src/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TSB [Ordenamiento Vectores]/src/TSB [Ordenamiento].iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TSB [Ordenamiento Vectores]/src/modelo/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TSB [Ordenamiento Vectores]/src/modelo/Vector.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../claseScanner/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../claseScanner/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../claseScanner/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../claseScanner/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../claseScanner/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../claseScanner/.idea/project-template.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../claseScanner/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../claseScanner/claseScanner.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../claseScanner/out/production/claseScanner/entradaDatos/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../claseScanner/src/entradaDatos/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjerciciosPracticos06/src/main/java/SimpleList05/clases/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EjerciciosPracticos06/src/main/java/SimpleList05/clases/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjerciciosPracticos06/target/classes/Semana06/Principal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjerciciosPracticos06/target/classes/Semana06/data/lists/GenericList$ListIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjerciciosPracticos06/target/classes/Semana06/data/lists/GenericList$Nodo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjerciciosPracticos06/target/classes/Semana06/data/lists/GenericList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjerciciosPracticos06/target/classes/SimpleList05/clases/Principal.class" beforeDir="false" afterPath="$PROJECT_DIR$/../EjerciciosPracticos06/target/classes/SimpleList05/clases/Principal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjerciciosPracticos07/${project.build.directory}/classes/ArrayListGenerico01/Principal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjerciciosPracticos07/${project.build.directory}/classes/ArrayListGenerico01/TSBArrayList$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjerciciosPracticos07/${project.build.directory}/classes/ArrayListGenerico01/TSBArrayList$TSBArrayListIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjerciciosPracticos07/${project.build.directory}/classes/ArrayListGenerico01/TSBArrayList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjerciciosPracticos07/${project.build.directory}/classes/CalendarioYFechas/CalendarioMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjerciciosPracticos07/${project.build.directory}/classes/CalendarioYFechas/ClaseOrdenada.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjerciciosPracticos07/${project.build.directory}/classes/ClasesGenericasCreadas/ArrayListPropio$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjerciciosPracticos07/${project.build.directory}/classes/ClasesGenericasCreadas/ArrayListPropio$ArrayListPropioIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjerciciosPracticos07/${project.build.directory}/classes/ClasesGenericasCreadas/ArrayListPropio.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjerciciosPracticos07/${project.build.directory}/classes/ClasesGenericasCreadas/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjerciciosPracticos07/${project.build.directory}/classes/ClasesGenericasCreadas/SimpleList$SimpleListIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjerciciosPracticos07/${project.build.directory}/classes/ClasesGenericasCreadas/SimpleList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjerciciosPracticos07/${project.build.directory}/classes/ClasesGenericasCreadas/TestIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjerciciosPracticos07/${project.build.directory}/classes/SalaReuniones/ArrayListPropio$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjerciciosPracticos07/${project.build.directory}/classes/SalaReuniones/ArrayListPropio$ArrayListPropioIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjerciciosPracticos07/${project.build.directory}/classes/SalaReuniones/ArrayListPropio.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjerciciosPracticos07/${project.build.directory}/classes/SalaReuniones/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjerciciosPracticos07/${project.build.directory}/classes/SalaReuniones/Persona.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjerciciosPracticos07/${project.build.directory}/classes/SalaReuniones/Reunion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjerciciosPracticos07/${project.build.directory}/classes/SalaReuniones/Sala.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjerciciosPracticos07/${project.build.directory}/classes/Serializable01/Persona.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjerciciosPracticos07/${project.build.directory}/classes/Serializable01/Principal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjerciciosPracticos07/${project.build.directory}/classes/Serializable01/TSBNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjerciciosPracticos07/${project.build.directory}/classes/Serializable01/TSBSimpleList$SimpleListIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjerciciosPracticos07/${project.build.directory}/classes/Serializable01/TSBSimpleList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjerciciosPracticos07/${project.build.directory}/classes/Serializable01/TSBSimpleListIOException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjerciciosPracticos07/${project.build.directory}/classes/Serializable01/TSBSimpleListReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjerciciosPracticos07/${project.build.directory}/classes/Serializable01/TSBSimpleListWriter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjerciciosPracticos07/src/main/java/CalendarioYFechas/ClaseOrdenada.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EjerciciosPracticos07/src/main/java/CalendarioYFechas/ClaseOrdenada.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjerciciosPracticos07/src/main/java/SalaReuniones/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EjerciciosPracticos07/src/main/java/SalaReuniones/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjerciciosPracticos07/src/main/java/SalaReuniones/Reunion.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EjerciciosPracticos07/src/main/java/SalaReuniones/Reunion.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,7 +78,8 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../EjerciciosPracticos05" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -208,7 +90,7 @@
       <recent name="D:\Programacion\JavaTSB\EjerciciosPracticos04" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Principal (3)">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ProcesosBasicosArreglo.Main" />
       <module name="EjerciciosPracticos04" />
@@ -276,9 +158,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Principal (3)" />
         <item itemvalue="Application.Principal (2)" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Principal (1)" />
         <item itemvalue="Application.Principal" />
       </list>
@@ -292,8 +174,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1631021643530</updated>
+      <workItem from="1632832793886" duration="1999000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
