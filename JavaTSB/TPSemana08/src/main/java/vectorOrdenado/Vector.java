@@ -3,27 +3,24 @@ package vectorOrdenado;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Scanner;
 
 /**
- *  Representa un arreglo de elementos int, y plantea diversos metodos de 
- *  ordenamiento implementados en forma directa.
- * 
- *  @author Ing. Valerio Frittelli.
- *  @version 2.0 [Agosto de 2018].
+ * Representa un arreglo de elementos int, y plantea diversos metodos de
+ * ordenamiento implementados en forma directa.
+ *
+ * @author Ing. Valerio Frittelli.
+ * @version 2.0 [Agosto de 2018].
  */
-public class Vector implements Comparable
-{
-    private double [] v ;
-    
+public class Vector implements Comparable {
+    private long[] v;
 
-    public Vector(int tam)
-    {
 
-        v = new double[tam];
+    public Vector(int tam) {
+
+        v = new long[tam];
     }
-
-
 
 
     public void InicializarVector(File f) {
@@ -33,8 +30,8 @@ public class Vector implements Comparable
             sc.useDelimiter("[ ,; \\n\\r]+");
             int i = 0;
             while (sc.hasNextInt()) {
-                Double x = sc.nextDouble();
-                v[i]=x;
+                Long x = sc.nextLong();
+                v[i] = x;
                 i++;
 
             }
@@ -47,21 +44,16 @@ public class Vector implements Comparable
     }
 
 
-
-    
-    public void set(int i, int x)
-    {
+    public void set(int i, int x) {
         v[i] = x;
     }
 
 
     //metodo generate automatico
-    public void generate()
-    {
-       for(int i=0; i<v.length; i++ )
-       {
-            v[i] = (int)Math.round(100 * Math.random());
-       }
+    public void generate() {
+        for (int i = 0; i < v.length; i++) {
+            v[i] = (int) Math.round(100 * Math.random());
+        }
     }
 
 
@@ -70,41 +62,117 @@ public class Vector implements Comparable
      * @return
      */
 
-    public boolean checkOrder()
-    {
-       for(int i=0; i < v.length - 1; i++)
-       {
-            if(v[i] > v[i+1]) { return false; }
-       }
-       return true;
+    public boolean checkOrder() {
+        for (int i = 0; i < v.length - 1; i++) {
+            if (v[i] > v[i + 1]) {
+                return false;
+            }
+        }
+        return true;
     }
 
 
+    public long size() {
+        return v.length;
+    }
+
+    public void OrdenarVector() {
+        Arrays.sort(v);
+    }
 
 
-
-
-
-    public int seleccionDirectaTP()
-    {
-        int cont=0;
+    public void contarInversionesVoid() {
+        int cont = 0;
         int n = v.length;
-        for(int i=0; i<n-1; i++)
-        {
-            for(int j=i+1; j<n; j++)
-            {
-                if(v[i] > v[j])
-                {
-                    double aux = v[i];
-                    v[i] = v[j];
-                    v[j] = aux;
-                    cont ++;
+        for (int i = 0; i < n - 1; i++) {
+            for (int j = i + 1; j < n; j++) {
+                if (v[i] > v[j]) {
+                    cont++;
                 }
             }
         }
-        return cont;
+        System.out.println("cantidad de pares: " + cont);
+
     }
 
+
+    public long contarInversiones() {
+        long count = 0;
+        int n = v.length;
+        for (int i = 0; i < n - 1; i++) {
+            for (int j = i + 1; j < n; j++) {
+                if (v[i] > v[j]) count++;
+            }
+        }
+        return count;
+    }
+
+
+    public long contar() {
+        int n = v.length;
+        long c = 0;
+        for (int i = 0; i < n - 1; i++) {
+            for (int j = i + 1; j < n; j++) {
+                if (v[i] > v[j]) {
+                    c++;
+                    long aux = v[i];
+                    v[i] = v[j];
+                    v[j] = aux;
+                }
+            }
+        }
+        return c;
+    }
+
+    public void maxSumSubsequence1() {
+        long suma = 0;
+        int n = v.length;
+        int i, j, k;
+        for (i = 0; i < n; i++) {
+            for (j = i; j < n; j++) {
+                long sumaParcial = 0;
+                for (k = i; k <= j; k++) {
+                    sumaParcial = sumaParcial + v[k];
+                }
+                if (sumaParcial > suma) {
+                    suma = sumaParcial;
+                }
+            }
+        }
+        System.out.print("\nla suma es: " + suma);
+    }
+
+    public void maxSumSubsequence2() {
+        long suma = 0;
+        int n = v.length;
+        int i, j;
+        long sumaParcial;
+        for (i = 0; i < n; i++) {
+            sumaParcial = 0;
+            for (j = i; j < n; j++) {
+                sumaParcial = (sumaParcial + v[j]);
+                if (sumaParcial > suma) {
+                    suma = sumaParcial;
+                }
+            }
+        }
+        System.out.print("\nla suma es: " + suma);
+    }
+
+    public void maxSumSubsequence3() {
+        long suma = 0;
+        int n = v.length;
+        long sumaParcial = 0;
+        for (int j = 0; j < n; j++) {
+            sumaParcial = sumaParcial + v[j];
+            if (sumaParcial > suma) {
+                suma = sumaParcial;
+            } else if (sumaParcial < 0) {
+                sumaParcial = 0;
+            }
+        }
+        System.out.print("\nla suma es: " + suma);
+    }
 
 
     public String toString() {
@@ -121,8 +189,60 @@ public class Vector implements Comparable
 
 
     /**
-     * burbuja
+     * Funciones
      */
+
+
+    public double funcion_a(double n) {
+       // double pow = Math.pow(2,n);
+        n = n * funcion_c(n);
+
+
+        return n;
+    }
+
+    public double funcion_b(double n) {
+        //f(n) = n * log(n)
+        /**
+         * lo calculo con el log en base 10 , aclaro por las dudas , si decea en base 2 modificarlo
+         *  Math.log(n);
+         *
+         */
+        double log = Math.log10(n);
+        n=n*log;
+
+        return n;
+    }
+
+    public double funcion_c(double n)
+    {
+        //f(n) = 2n
+
+        return Math.pow(2,n);
+    }
+
+    public double funcion_d(double n)
+    {
+        //f(n) = log2(n) * n3
+        double log=Math.log(n);
+        double pot=Math.pow(n,3);
+        double res=log*pot;
+
+        return res;
+    }
+
+
+    public double funcion_e(double n)
+    {
+        // f(n) = n2 * 2n
+        double pot=Math.pow(n,2);
+        return pot * funcion_c(n);
+    }
+
+
+    /*
+
+
     public void bubbleSort()
     {
         boolean ordenado = false;
@@ -134,7 +254,7 @@ public class Vector implements Comparable
             {
                 if(v[j] > v[j+1])
                 {
-                    double aux = v[j];
+                    long aux = v[j];
                     v[j] = v[j+1];
                     v[j+1] = aux;
                     ordenado = false;
@@ -154,7 +274,7 @@ public class Vector implements Comparable
             {
                 if(v[i] > v[j])
                 {
-                    double aux = v[i];
+                    long aux = v[i];
                     v[i] = v[j];
                     v[j] = aux;
                 }
@@ -186,7 +306,7 @@ public class Vector implements Comparable
         return -1;
     }
 
-    /*
+
 
     public void insertionSort()
     {
@@ -332,6 +452,8 @@ public class Vector implements Comparable
         }
     }
 */
+
+
     @Override
     public int compareTo(Object o) {
         return 0;

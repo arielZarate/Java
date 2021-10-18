@@ -8,7 +8,9 @@ public class MainLibro {
     public static void main(String[] args) {
 
         Libro cl1 = new Libro(25, "Programacion en Java", "ArielZarate");
-        Libro cl2 = new Libro(25, "Programacion en Java", "ArielZarate");
+        Libro cl2 = new Libro(26, "Programacion en Java", "ArielZarate");
+
+
 
 
         /**
@@ -39,6 +41,8 @@ public class MainLibro {
         }
         else {
             System.out.println("son distintos ");
+            System.out.println("libro 1 hashcode " + cl1.hashCode());;
+            System.out.println("libro 2 hashcode " + cl2.hashCode());;
         }
 
 
