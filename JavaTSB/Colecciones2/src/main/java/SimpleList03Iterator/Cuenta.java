@@ -51,7 +51,7 @@ public abstract class Cuenta implements Comparable
     @Override
     public int compareTo (Object x)
     {
-        Cuenta p = (Cuenta) x;
+        SimpleList04Generico.Cuenta p = (SimpleList04Generico.Cuenta) x;
         return this.numero - p.numero;
     }
 }

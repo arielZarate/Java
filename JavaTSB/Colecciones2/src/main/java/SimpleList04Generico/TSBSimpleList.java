@@ -1,4 +1,4 @@
-package clases;
+package SimpleList04Generico;
 
 /**
  *  Una lista generica. Empleamos generics para control de homogeneidad. Tambien

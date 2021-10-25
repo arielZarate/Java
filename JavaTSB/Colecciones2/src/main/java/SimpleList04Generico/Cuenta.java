@@ -1,4 +1,4 @@
-package clases;
+package SimpleList04Generico;
 
 public abstract class Cuenta implements Comparable<Cuenta>
 {   

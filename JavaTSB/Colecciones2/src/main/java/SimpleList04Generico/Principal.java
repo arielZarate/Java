@@ -1,4 +1,4 @@
-package clases;
+package SimpleList04Generico;
 
 import java.util.*;
 public class Principal

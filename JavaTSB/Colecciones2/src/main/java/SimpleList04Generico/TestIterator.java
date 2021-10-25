@@ -1,4 +1,4 @@
-package clases;
+package SimpleList04Generico;
 
 import java.util.Iterator;
 import java.util.LinkedList;

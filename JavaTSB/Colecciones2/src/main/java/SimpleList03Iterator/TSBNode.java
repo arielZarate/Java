@@ -3,24 +3,24 @@ package clases;
 public class TSBNode
 {
    private Comparable info;
-   private TSBNode next;
+   private SimpleList04Generico.TSBNode next;
    
    public TSBNode ( )
    {
    }
    
-   public TSBNode (Comparable x, TSBNode p)
+   public TSBNode (Comparable x, SimpleList04Generico.TSBNode p)
    {
      info = x;
      next = p;
    }
    
-   public TSBNode getNext()
+   public SimpleList04Generico.TSBNode getNext()
    {
      return next;
    }
    
-   public void setNext(TSBNode p)
+   public void setNext(SimpleList04Generico.TSBNode p)
    {
      next = p;
    }

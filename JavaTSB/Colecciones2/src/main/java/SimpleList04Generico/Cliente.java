@@ -1,4 +1,4 @@
-package clases;
+package SimpleList04Generico;
 
 public class Cliente implements Comparable<Cliente>
 {

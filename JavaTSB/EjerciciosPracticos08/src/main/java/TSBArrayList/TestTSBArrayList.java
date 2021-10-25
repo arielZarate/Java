@@ -17,7 +17,7 @@ public class TestTSBArrayList
         String nombres[] = {"Ana", "Luis", "Carlos", "Luz", "Juan", "Maria"};
 
         // creación de un ArrayList...
-        TSBArrayList<Object> al = new TSBArrayList<>(5);
+        TSBArrayList<String> al = new TSBArrayList<String>(5);
         System.out.println("Lista inicial: " + al); 
         
         // inserción de cadenas...
@@ -35,7 +35,7 @@ public class TestTSBArrayList
         System.out.println("Luego de invocar a remove() una vez: " + al);
         System.out.println("Lista copiada: " + copia);  
         
-        TSBArrayList<Object> copia2 = new TSBArrayList<>(al);
+        TSBArrayList<String> copia2 = new TSBArrayList<>(al);
         System.out.println("Segunda copia: " + copia2);  
         
         // eliminación masiva usando remove():
@@ -68,7 +68,7 @@ public class TestTSBArrayList
         System.out.println("Luego de insertar en casilla " +  id + ": " + al);        
      
         System.out.println("Contenido usando iterador: ");         
-        Iterator<Object> it = al.iterator();
+        Iterator<String> it = al.iterator();
         while(it.hasNext())
         {
             Object x = it.next();
