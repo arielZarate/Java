@@ -70,7 +70,7 @@ public class abmController implements Initializable {
         if (dni != null && nombre != null && edad != 0) {
             Persona p = new Persona(dni, nombre, edad);
             personas.add(p);
-          //  lista.getItems().add(p);
+           lista.getItems().add(p);
             tbl_personas.getItems().add(p);
 
             this.clear();
@@ -122,23 +122,26 @@ public class abmController implements Initializable {
         }
         */
 
-       /*
+
+
         if (!personas.isEmpty()) {
            System.out.println("Elementos dela lista");
             for (int i = 0; i < personas.size(); i++) {
                 //imprimirmos por pantalla
-                System.out.println(personas.get(i));
+               // System.out.println(personas.get(i));
+                //lista.getItems().add(personas);
+                //lista.getItems();
             }
         } else System.out.println("No hay Datos en la lista ");
 
-        */
+
 
         // for (Persona p: personas ) {
         //   System.out.println(p.toString());
         //}
 
 
-        //lista.getItems().add(personas);
+
     }
 
     public void btn_update(ActionEvent actionEvent) {
@@ -179,5 +182,6 @@ public class abmController implements Initializable {
         colZ.setCellValueFactory(new PropertyValueFactory<>("edad"));
 
         tbl_personas.getColumns().addAll(colX, colY,colZ);
+
     }
 }

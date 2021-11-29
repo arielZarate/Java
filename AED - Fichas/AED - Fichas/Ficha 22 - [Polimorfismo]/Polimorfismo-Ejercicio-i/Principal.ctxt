@@ -1,6 +1,0 @@
-#BlueJ class context
-comment0.params=args
-comment0.target=void\ main([)
-comment1.target=void\ cargarVehiculos()
-comment1.text=\nCarga\ por\ teclado\ los\ datos\ de\ los\ veh\u00EDculos\ de\ carga.\n\n
-numComments=2

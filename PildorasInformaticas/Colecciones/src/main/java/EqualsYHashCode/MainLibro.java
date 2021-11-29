@@ -9,6 +9,7 @@ public class MainLibro {
 
         Libro cl1 = new Libro(25, "Programacion en Java", "ArielZarate");
         Libro cl2 = new Libro(26, "Programacion en Java", "ArielZarate");
+        Libro cl3 = new Libro(26, "Programacion en Java", "ArielZarate");
 
 
 

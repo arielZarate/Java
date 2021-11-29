@@ -54,7 +54,7 @@ public class Libro {
     /**
      * este equal es el original redefinido
      * @param o
-     * @return
+     * @return ISBN
      */
     public  boolean equalsOriginalRedefinido(Object o) {
         if (this == o) return true;
