@@ -1,4 +1,4 @@
-package clases;
+package SimpleList03Iterator;
 
 public abstract class Cuenta implements Comparable
 {   

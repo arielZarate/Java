@@ -176,7 +176,7 @@ public class Main {
             int cant1= r1.cantidadReunionesAsistio(nom);
             int cant2= r2.cantidadReunionesAsistio(nom);
 
-            int sumanombre=cant1+cant2;
+           // int sumanombre=cant1+cant2;
         System.out.println("cantidad de reuniones a las que asistio  es :" +  r1.cantidadReunionesAsistio(nom) );
 
     }
