@@ -1,5 +1,5 @@
 
-package interfaces;
+package interfaces.InterfaceDibujar;
 
 /**
  *
