@@ -9,9 +9,11 @@
         <module name="AED" />
         <module name="HolaWorld" />
         <module name="POO" />
-        <module name="InterfacesGenericas" />
         <module name="ConexionEntreCapas" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="InterfacesGenericas" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
