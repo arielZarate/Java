@@ -9,7 +9,9 @@
         <module name="AED" />
         <module name="HolaWorld" />
         <module name="POO" />
+        <module name="Genericos" />
         <module name="ConexionEntreCapas" />
+        <module name="Colecciones" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

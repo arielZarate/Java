@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/InterfacesGenericas.iml" filepath="$PROJECT_DIR$/InterfacesGenericas.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/java 2024.iml" filepath="$PROJECT_DIR$/.idea/java 2024.iml" />
     </modules>
   </component>
