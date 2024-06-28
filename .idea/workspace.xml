@@ -2,10 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2356b81-24cd-4535-bd6a-84a36f03c08c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/java 2024/POO/src/main/java/Excepciones/Excepciones_1/Division.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java 2024/POO/src/main/java/Excepciones/Excepciones_1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java 2024/POO/src/main/java/Excepciones/Excepciones_1/OperationException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java 2024/POO/src/main/java/Excepciones/mainExcepciones.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/java 2024/PracticoGenericoListasExcepciones/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java 2024/PracticoGenericoListasExcepciones/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java 2024/PracticoGenericoListasExcepciones/src/main/java/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java 2024/PracticoGenericoListasExcepciones/src/main/java/excepciones/LibraryException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java 2024/PracticoGenericoListasExcepciones/src/main/java/model/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java 2024/PracticoGenericoListasExcepciones/src/main/java/model/FictionBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java 2024/PracticoGenericoListasExcepciones/src/main/java/model/LibraryGeneric.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java 2024/PracticoGenericoListasExcepciones/src/main/java/model/LibraryUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java 2024/PracticoGenericoListasExcepciones/src/main/java/model/NoFictionBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java 2024/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java 2024/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java 2024/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java 2024/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java 2024/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java 2024/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java 2024/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java 2024/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java 2024/Colecciones/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java 2024/Genericos/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java 2024/POO/src/main/java/Excepciones/ExcepUnchecked/MainUnchecked.java" beforeDir="false" afterPath="$PROJECT_DIR$/java 2024/POO/src/main/java/excepciones/ExcepUnchecked/MainUnchecked.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java 2024/POO/src/main/java/Excepciones/ExcepcionesChecked/MainExcepCheked.java" beforeDir="false" afterPath="$PROJECT_DIR$/java 2024/POO/src/main/java/excepciones/ExcepcionesChecked/MainExcepCheked.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java 2024/POO/src/main/java/Excepciones/ExcepcionesCustomizados/CustomException.java" beforeDir="false" afterPath="$PROJECT_DIR$/java 2024/POO/src/main/java/excepciones/ExcepcionesCustomizados/CustomException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java 2024/POO/src/main/java/Excepciones/ExcepcionesCustomizados/MainCustom.java" beforeDir="false" afterPath="$PROJECT_DIR$/java 2024/POO/src/main/java/excepciones/ExcepcionesCustomizados/MainCustom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java 2024/POO/src/main/java/Excepciones/ExcepcionesLecturaEscritura/CPJ-B-Ejercicio-Excepciones-2.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/java 2024/POO/src/main/java/excepciones/ExcepcionesLecturaEscritura/CPJ-B-Ejercicio-Excepciones-2.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java 2024/POO/src/main/java/Excepciones/ExcepcionesLecturaEscritura/Datos/AccesoDatos.java" beforeDir="false" afterPath="$PROJECT_DIR$/java 2024/POO/src/main/java/excepciones/ExcepcionesLecturaEscritura/Datos/AccesoDatos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java 2024/POO/src/main/java/Excepciones/ExcepcionesLecturaEscritura/Datos/ImplementacionMySql.java" beforeDir="false" afterPath="$PROJECT_DIR$/java 2024/POO/src/main/java/excepciones/ExcepcionesLecturaEscritura/Datos/ImplementacionMySql.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java 2024/POO/src/main/java/Excepciones/ExcepcionesLecturaEscritura/Excepciones/AccesoDatosExcepciones.java" beforeDir="false" afterPath="$PROJECT_DIR$/java 2024/POO/src/main/java/excepciones/ExcepcionesLecturaEscritura/Excepciones/AccesoDatosExcepciones.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java 2024/POO/src/main/java/Excepciones/ExcepcionesLecturaEscritura/Excepciones/EscrituraDatosExcepciones.java" beforeDir="false" afterPath="$PROJECT_DIR$/java 2024/POO/src/main/java/excepciones/ExcepcionesLecturaEscritura/Excepciones/EscrituraDatosExcepciones.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java 2024/POO/src/main/java/Excepciones/ExcepcionesLecturaEscritura/Excepciones/LecturaDatosExcepciones.java" beforeDir="false" afterPath="$PROJECT_DIR$/java 2024/POO/src/main/java/excepciones/ExcepcionesLecturaEscritura/Excepciones/LecturaDatosExcepciones.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java 2024/POO/src/main/java/Excepciones/ExcepcionesLecturaEscritura/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/java 2024/POO/src/main/java/excepciones/ExcepcionesLecturaEscritura/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java 2024/POO/src/main/java/Excepciones/Excepciones_1/CPJ-B-Ejercicio-Excepciones.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/java 2024/POO/src/main/java/excepciones/Excepciones_1/CPJ-B-Ejercicio-Excepciones.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java 2024/POO/src/main/java/Excepciones/Excepciones_1/Division.java" beforeDir="false" afterPath="$PROJECT_DIR$/java 2024/POO/src/main/java/excepciones/Excepciones_1/Division.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java 2024/POO/src/main/java/Excepciones/Excepciones_1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/java 2024/POO/src/main/java/excepciones/Excepciones_1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java 2024/POO/src/main/java/Excepciones/Excepciones_1/OperationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/java 2024/POO/src/main/java/excepciones/Excepciones_1/OperationException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java 2024/POO/src/main/java/Excepciones/exception.png" beforeDir="false" afterPath="$PROJECT_DIR$/java 2024/POO/src/main/java/excepciones/exception.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

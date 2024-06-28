@@ -9,13 +9,15 @@
         <module name="AED" />
         <module name="HolaWorld" />
         <module name="POO" />
-        <module name="Genericos" />
         <module name="ConexionEntreCapas" />
-        <module name="Colecciones" />
+        <module name="PracticosSkilingJava" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Colecciones" target="21" />
+      <module name="Genericos" target="21" />
       <module name="InterfacesGenericas" target="1.8" />
+      <module name="PracticoGenericoListasExcepciones" target="21" />
     </bytecodeTargetLevel>
   </component>
 </project>
