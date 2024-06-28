@@ -13,11 +13,15 @@
         <option value="$PROJECT_DIR$/Genericos/pom.xml" />
         <option value="$PROJECT_DIR$/Practicos/pom.xml" />
         <option value="$PROJECT_DIR$/PracticosSkilingJava/pom.xml" />
+        <option value="$PROJECT_DIR$/Collections/pom.xml" />
+        <option value="$PROJECT_DIR$/JDBC/pom.xml" />
+        <option value="$PROJECT_DIR$/ParadigmaFuncional/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/AED/InterfaceGenericas/pom.xml" />
+        <option value="$PROJECT_DIR$/POO/Collections/pom.xml" />
       </set>
     </option>
   </component>

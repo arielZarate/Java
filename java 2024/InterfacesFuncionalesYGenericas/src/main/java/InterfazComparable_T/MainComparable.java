@@ -29,7 +29,7 @@ public class MainComparable {
         System.out.println("Ingrese la edad  de la primera persona\n");
         int  age1=scan.nextInt();
 
-        Persona p1=new Persona(name1,age1);
+        InterfazComparable_T.Persona p1=new InterfazComparable_T.Persona(name1,age1);
 
 
         System.out.println("Ingrese nombre de la segunda persona");
@@ -37,7 +37,7 @@ public class MainComparable {
 
         System.out.println("Ingrese la edad  de la segunda persona");
         int  age2=scan.nextInt();
-        Persona p2=new Persona(name2,age2);
+        InterfazComparable_T.Persona p2=new InterfazComparable_T.Persona(name2,age2);
 
         System.out.println("#############################################");
 
