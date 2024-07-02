@@ -1,7 +1,4 @@
-package JDDB_PRE_STMT_WITH_DAO_V2.db;
-
-import JDDB_PRE_STMT_V1.ConnectionJDBC;
-import com.mysql.cj.MysqlConnection;
+package JDBC_PSTMT_WITH_DAO_V2.db;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -36,7 +33,7 @@ public class ConnectionDB {
 
 
 /*
-se utiliza a getInstance para poder conectarse a la bd ,es decir la unica instancia 
+se utiliza a getInstance para poder conectarse a la bd ,es decir la unica instancia
 * */
     public Connection getConnection() {
         Connection cnn = null;
