@@ -8,7 +8,6 @@
         <outputRelativeToContentRoot value="true" />
         <module name="AED" />
         <module name="HolaWorld" />
-        <module name="ConexionEntreCapas" />
         <module name="PracticosSkilingJava" />
         <module name="JDBC" />
         <module name="ParadigmaFuncional" />
@@ -17,6 +16,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Colecciones" target="21" />
+      <module name="ConexionEntreCapas" target="20" />
       <module name="Genericos" target="21" />
       <module name="InterfacesGenericas" target="1.8" />
       <module name="PracticoGenericoListasExcepciones" target="21" />

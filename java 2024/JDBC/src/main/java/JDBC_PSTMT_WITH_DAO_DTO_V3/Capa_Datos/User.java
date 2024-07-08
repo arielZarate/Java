@@ -2,14 +2,6 @@ package JDBC_PSTMT_WITH_DAO_DTO_V3.Capa_Datos;
 
 public class User {
 
-
-    /*
-      "(id INT AUTO_INCREMENT PRIMARY KEY,  " +
-                "name VARCHAR(50)," +
-                "lastName VARCHAR(50)," +
-                "age INT ," +
-                "email VARCHAR(50) )" ;
-*/
     private int id;
     private String name;
     private String lastName;

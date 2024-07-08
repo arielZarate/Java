@@ -18,35 +18,9 @@ public class UserDTO {
         this.email = email;
     }
 
-    /**
-    * //estos metodos mapeaban el user a userDto y viceversa ahora estan en una clase aparte
-
-    //constructor que mapea desde user a userDTO
-
-    public UserDTO(User user){
-
-    this.id=user.getId();
-    this.name=user.getName();
-    this.lastName=user.getLastName();
-    this.age=user.getAge();
-    this.email=user.getEmail();
-    }
-    //Metodo para convertir UserDTO a User
-    public User DTO_to_User(){
-    User user=new User();
-    user.setId(this.id);
-    user.setName(this.name);
-    user.setLastName(this.lastName);
-    user.setAge(this.age);
-    user.setEmail(this.email);
-    return  user;
-    }
 
 
 
-
-
-    */
     // Getters y setters
     public int getId() { return id; }
     public void setId(int id) { this.id = id; }
