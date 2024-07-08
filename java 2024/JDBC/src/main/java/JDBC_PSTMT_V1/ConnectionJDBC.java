@@ -6,6 +6,8 @@ import java.sql.DriverManager;
 
 public class ConnectionJDBC {
 
+
+
     //String url="jdbc:h2:~/test";  //url conexion a bd H2
   private  String url="jdbc:mysql://localhost:3306/test?useSSL=false";
   private  String username="root"; //usuario de bd;

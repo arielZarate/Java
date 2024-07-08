@@ -11,7 +11,7 @@ import java.util.Random;
 public class RequestJDBC {
 
     Connection cnn = null;
-
+    final  String  USER_TABLE="usuarios"   ;
     //METODO CONSTRUCTOR
     public RequestJDBC()
     {
@@ -19,25 +19,36 @@ public class RequestJDBC {
     }
 
 
+  public void createTable(){
+      //crear tabla
+      String createTableQuery="CREATE TABLE IF NOT EXISTS " +USER_TABLE+ " (" +
+              "id INT AUTO_INCREMENT PRIMARY KEY,  " +
+              "name VARCHAR(50)) ";
 
+      try(PreparedStatement pstmt=cnn.prepareStatement(createTableQuery)){
 
+          int rows=pstmt.executeUpdate(createTableQuery);
 
-    /*
-    *
-    *   //crear tabla
-            String createTableQuery="CREATE TABLE IF NOT EXISTS usuarios(" +
-                    "id INT AUTO_INCREMENT PRIMARY KEY,  " +
-                    "name VARCHAR(50)) ";
-            stemen.executeUpdate(createTableQuery);
-    * */
+          if(rows >0 )
+          {
+              System.out.println("Tabla creada con exito");
+          }else {
+              System.out.println("Error tabla no creada ");
+          }
 
+      }
+      catch(SQLException e){
+          System.out.println(e.getMessage());
+          e.printStackTrace();
+      }
 
+  }
 
 
   //GET USUARIOS
     public void getUsuarios() {
         try(
-                PreparedStatement pstmt = cnn.prepareStatement("SELECT * FROM usuarios");
+                PreparedStatement pstmt = cnn.prepareStatement("SELECT * FROM "+USER_TABLE);
                 ResultSet res = pstmt.executeQuery();
           )
         {  //ahora itero
@@ -60,7 +71,7 @@ public class RequestJDBC {
         Random random=new Random();
         int id =random.nextInt();
 
-      String sql="INSERT INTO usuarios (id,name) VALUES (?,?)";
+      String sql="INSERT INTO "+ USER_TABLE+ " (id,name) VALUES (?,?)";
         try(PreparedStatement pstmt = cnn.prepareStatement(sql))
         {
 
@@ -79,7 +90,7 @@ public class RequestJDBC {
 
     //UPDATE usuarios
     public void updateUsuario(int id , String name){
-       String sql="UPDATE usuarios SET name= ? WHERE id=?";
+       String sql="UPDATE " +USER_TABLE+ " SET name= ? WHERE id=?";
         try(PreparedStatement pstmt=cnn.prepareStatement(sql)){
 
 
@@ -100,7 +111,7 @@ public class RequestJDBC {
   /// Usuarios getbyid
 
     public void getUsuarioPorId(int id ){
-        String sql="SELECT * FROM  usuarios  WHERE id=?";
+        String sql="SELECT * FROM " +USER_TABLE+  " WHERE id=?";
         try(PreparedStatement pstmt=cnn.prepareStatement(sql)){
 
             pstmt.setInt(1,id);
@@ -120,7 +131,7 @@ public class RequestJDBC {
 
     //DELETE usuarios
     public void deleteUsuario(int id ){
-        String sql="DELETE FROM usuarios  WHERE id=?";
+        String sql="DELETE FROM " +USER_TABLE+ "  WHERE id=?";
         try(PreparedStatement pstmt=cnn.prepareStatement(sql)){
 
             //pstmt.setString(1,name);

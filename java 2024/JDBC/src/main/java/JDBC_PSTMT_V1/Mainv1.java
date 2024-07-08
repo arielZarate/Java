@@ -2,7 +2,7 @@ package JDBC_PSTMT_V1;
 
 import java.util.Scanner;
 
-public class Main {
+public class Mainv1 {
 
     public static void main(String[] args) {
 
