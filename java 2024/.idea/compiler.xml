@@ -12,6 +12,7 @@
         <module name="JDBC" />
         <module name="ParadigmaFuncional" />
         <module name="Collections" />
+        <module name="JPA-Hibernate" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

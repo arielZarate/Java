@@ -1,11 +1,13 @@
-package JDBC_PSTMT_WITH_DAO_DTO_V3.Capa_Persistencia;
+package JDBC_PSTMT_WITH_DAO_DTO_API_REST_V4.Capa_Persistencia;
 
 
 
-import JDBC_PSTMT_WITH_DAO_DTO_V3.Capa_Datos.User;
-import JDBC_PSTMT_WITH_DAO_DTO_V3.Capa_Datos.UserDTO;
-import JDBC_PSTMT_WITH_DAO_DTO_V3.Capa_Datos.UserMapper;
-import JDBC_PSTMT_WITH_DAO_DTO_V3.config.ConnectionJDBC;
+
+
+import JDBC_PSTMT_WITH_DAO_DTO_API_REST_V4.Capa_Datos.User;
+import JDBC_PSTMT_WITH_DAO_DTO_API_REST_V4.Capa_Datos.UserDTO;
+import JDBC_PSTMT_WITH_DAO_DTO_API_REST_V4.Capa_Datos.UserMapper;
+import JDBC_PSTMT_WITH_DAO_DTO_API_REST_V4.config.ConnectionJDBC;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -14,7 +16,7 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class UserDAOImpl  implements UserDAO {
+public class UserDAOImpl  implements  UserDAO {
     Connection cnn;
 
   String TABLE_USERS="users";
@@ -23,6 +25,15 @@ public class UserDAOImpl  implements UserDAO {
     //metodo publico crea la instancia y queda disponible para usarse
     public UserDAOImpl(){
         this.cnn= ConnectionJDBC.getInstance().getConnectionJDBC();
+       if(cnn != null)
+       {
+           System.out.println(cnn);
+
+       }
+       else{
+           System.out.println("cnn es null ");
+       }
+
     }
 
 
@@ -198,6 +209,8 @@ public class UserDAOImpl  implements UserDAO {
             //pstmt.setString(1,name);
             pstmt.setInt(1,id);
             rowsAffected=   pstmt.executeUpdate();
+
+           // System.out.println("rowsafected: "+rowsAffected);
 
         }catch(SQLException e)
         {
