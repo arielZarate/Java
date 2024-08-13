@@ -11,6 +11,7 @@ import java.util.List;
 
 public class UserDaoImp implements UserDAO {
 
+    //crea una unidad de persistencia con lo configurado en el el archivo persitence.xml
     private final EntityManagerFactory emf = Persistence.createEntityManagerFactory("UserPU");
 
     //===============aca implemento los metodos del UserDAO===================================

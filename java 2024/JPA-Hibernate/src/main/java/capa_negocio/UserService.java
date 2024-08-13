@@ -7,8 +7,9 @@ import java.util.List;
 
 public class UserService implements UserServiceDAO{
 
-
-   private final UserDAO  userDAO;
+    //aca creo una instancia de tipo INTERFACE no de la implementacion
+    //esto se llama programacion orientada a interfaces, es mas flexible y permite mejor abstraccion
+    private final UserDAO  userDAO;
 
 
    //constructor  inyeccion de dependencias

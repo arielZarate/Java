@@ -14,6 +14,7 @@ public class UserRoutes {
     private final UserController controller;
     private final Gson gson;
 
+    //inyeccion de dependencias :)
     public UserRoutes(UserController controller) {
         this.controller = controller;
         this.gson = new Gson();
@@ -25,7 +26,7 @@ public class UserRoutes {
     public void configure(){
 
         Spark.port(3001);
-        System.out.println("http://localhost:3001");
+        System.out.println("http://localhost:3001/api/users");
 
 
 

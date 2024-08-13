@@ -7,7 +7,7 @@ import java.util.List;
 
 public class UserController {
 
-    //creacion por intterface
+    //creacion por instancia de la interface de la capa de negocio o los services
         private final UserServiceDAO userService;
 
 

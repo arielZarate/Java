@@ -17,12 +17,15 @@
         <option value="$PROJECT_DIR$/JDBC/pom.xml" />
         <option value="$PROJECT_DIR$/ParadigmaFuncional/pom.xml" />
         <option value="$PROJECT_DIR$/JPA-Hibernate/pom.xml" />
+        <option value="$PROJECT_DIR$/Testing/pom.xml" />
+        <option value="$PROJECT_DIR$/TestingJava/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/AED/InterfaceGenericas/pom.xml" />
         <option value="$PROJECT_DIR$/POO/Collections/pom.xml" />
+        <option value="$PROJECT_DIR$/Testing/pom.xml" />
       </set>
     </option>
   </component>
