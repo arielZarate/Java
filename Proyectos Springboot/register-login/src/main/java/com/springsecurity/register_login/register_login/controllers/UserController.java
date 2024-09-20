@@ -18,7 +18,8 @@ public class UserController {
 
     @Autowired
     private UserService userService;
-
+ //  @Autowired
+  //  private AuthenticationManager authenticationManager;
 
     // Método para registrar un nuevo usuario
     @PostMapping("/register")
@@ -35,12 +36,13 @@ public class UserController {
 
     // Método para iniciar sesión
     @PostMapping("/login")
-    public ResponseEntity<String> loginUser(@RequestBody User user) {
+    public ResponseEntity<?> loginUser(@RequestBody User user) {
         try {
 
             System.out.println("la password ingresada es :" + user.getPassword()+ "\n***********************");
-         User  userFound=   userService.loginUser(user.getEmail(), user.getPassword());
-            return ResponseEntity.ok("Inicio de sesión exitoso \n"+ userFound);
+        User  userFound=   userService.loginUser(user.getEmail(), user.getPassword());
+           return ResponseEntity.ok("Inicio de sesión exitoso \n"+ userFound);
+
         } catch (Exception e) {
             return ResponseEntity.badRequest().body(e.getMessage());
         }
@@ -48,3 +50,10 @@ public class UserController {
 
     
 }
+ /*
+         Authentication auth = authenticationManager.authenticate(
+            new UsernamePasswordAuthenticationToken(user.getEmail(), user.getPassword()));
+        SecurityContextHolder.getContext().setAuthentication(auth);
+        return ResponseEntity.ok("Login exitoso");* 
+
+      */

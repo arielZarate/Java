@@ -20,20 +20,22 @@ public class SecurityConfig  {
 
 
 
+   
+
 
    @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
         http
-            .csrf(csrf -> csrf.disable()) // Deshabilitar CSRF temporalmente
+        .csrf(csrf -> csrf
+        .ignoringRequestMatchers("/public/**", "/auth/**", "/protected/**") // Excluir rutas específicas de CSRF
+    )
             .authorizeHttpRequests(auth -> auth
                 .requestMatchers("/auth/register", "/auth/login" ).permitAll() // Permitir acceso a /register y /login sin autenticación
                 .requestMatchers("/public/**").permitAll() // Permitir acceso pulic a cualquiera
-                .requestMatchers("/dashboard").hasAuthority("ADMIN") // Solo ADMIN puede acceder a /dashboard
+                .requestMatchers("/protected/dashboard").hasAuthority("ROLE_ADMIN") // Solo ADMIN puede acceder a /dashboard
                 .anyRequest().authenticated() // Todas las demás rutas requieren autenticación
             );
-
-          //    .formLogin(org.springframework.security.config.Customizer.withDefaults()); // Habilitar el login por defecto
-
+        
         return http.build(); // Construir y devolver el SecurityFilterChain
     }
 
@@ -47,7 +49,11 @@ public class SecurityConfig  {
         return new BCryptPasswordEncoder();
     }
 
-
+ // Bean para el AuthenticationManager, requerido en casos donde quieras autenticar manualmente
+ /*  @Bean
+   public AuthenticationManager authenticationManager(AuthenticationConfiguration authConfig) throws Exception {
+       return authConfig.getAuthenticationManager();
+   } */
 
 
     

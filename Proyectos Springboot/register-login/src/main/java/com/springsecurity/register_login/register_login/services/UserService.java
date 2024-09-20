@@ -41,7 +41,7 @@ public class UserService implements UserDetailsService {
         try {
            
            Optional<User> optUser=  userRepository.findByEmail(email);
-            if (optUser.isPresent()) {
+            if (optUser.isEmpty()) {
                 throw new UsernameNotFoundException("User not found with Email :" + email);
             }
             else{
@@ -91,12 +91,12 @@ public class UserService implements UserDetailsService {
             User user = optionalUser.get();
 
       
+            System.out.println("El usuario logueado es:" + user);
+            System.out.println("el role es  "+ user.getRole().name());
 
             // Verificar la contraseña
             if (passwordEncoder.matches(password, user.getPassword())) {
-
-                System.out.println("El usuario logueado es:" + user);
-                System.out.println("el role es  "+ user.getRole().getDescription());
+       
                 return user; // Retorna el usuario si la contraseña es correcta
             } else {
                 throw new IllegalArgumentException("Contraseña incorrecta");
