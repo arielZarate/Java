@@ -11,12 +11,14 @@ import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import lombok.ToString;
 
 @Entity
 @Table(name = "user")
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
+@ToString
 public class User {
 
     @Id
@@ -26,6 +28,7 @@ public class User {
     @Column(unique = true )
     private String email;
 
+   //  @JsonIgnore // Esto oculta la contraseña de la serialización
     private String password;
 
     @Enumerated(EnumType.STRING)

@@ -8,10 +8,12 @@ import org.springframework.security.config.annotation.authentication.builders.Au
 import org.springframework.security.config.annotation.method.configuration.EnableMethodSecurity;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
-import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
+import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
+import com.arielZarate.springSecurityJwt.entity.Role;
 import com.arielZarate.springSecurityJwt.services.UserDetailServiceImpl;
 
 import lombok.AllArgsConstructor;
@@ -22,46 +24,71 @@ import lombok.AllArgsConstructor;
 @EnableMethodSecurity
 public class WebSecurity {
 
-    @Autowired
-    private UserDetailServiceImpl userDetailServiceImpl;
-   
+        @Autowired
+        private UserDetailServiceImpl userDetailServiceImpl;
 
-    //NO IMPORTAR EL  PasswordEncoder porque genera una dependencia circular
+        // Inyectar PasswordEncoder
+        @Autowired
+        private PasswordEncoder passwordEncoder;
 
+        @Autowired
+        private JwtAuthFilter jwtAuthFilter;
 
-    public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
+        @Bean
+        public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
 
-        http
-                .csrf(csrf -> csrf.disable())
-                .authorizeHttpRequests(auth -> auth
-                        .requestMatchers("/public/**").permitAll()
-                        .requestMatchers("/auth/admin").hasAuthority("ROLE_ADMIN")
-                        .anyRequest().authenticated());
+                http
+                                .csrf(csrf -> csrf.disable())
+                                .authorizeHttpRequests(auth -> auth
+                                                .requestMatchers("/auth/register").permitAll()
+                                                .requestMatchers("/auth/login").permitAll()
+                                                .requestMatchers("/public/**").permitAll()
+                                                .requestMatchers("/home/**")
+                                                .hasAnyAuthority(Role.ROLE_USER.name(), Role.ROLE_ADMIN.name())
+                                                .requestMatchers("/dashboard/**").hasAuthority(Role.ROLE_ADMIN.name())
+                                                .anyRequest().authenticated()
 
-        return http.build();
+                                )
 
-    }
+                                // .httpBasic(Customizer.withDefaults())
+                                .sessionManagement(session -> session
+                                                .sessionCreationPolicy(SessionCreationPolicy.STATELESS));
+                // Añadir el filtro de JWT antes del filtro de autenticación de Spring
+                http.addFilterBefore(jwtAuthFilter, UsernamePasswordAuthenticationFilter.class); // de que
+                // estás
+                // usando
+                // sesiones
 
-    @Bean
-    public PasswordEncoder passwordEncoder() {
-        return new BCryptPasswordEncoder();
-    }
+                return http.build();
 
+        }
 
+        // Configuración del AuthenticationManager para usar UserDetailService y
+        // PasswordEncoder
+        @Bean
+        public AuthenticationManager authenticationManager(HttpSecurity http) throws Exception {
+                AuthenticationManagerBuilder authenticationManagerBuilder = http
+                                .getSharedObject(AuthenticationManagerBuilder.class);
 
+                authenticationManagerBuilder
+                                .userDetailsService(userDetailServiceImpl)
+                                .passwordEncoder(passwordEncoder);
 
-    // Configuración del AuthenticationManager para usar UserDetailService y
-    // PasswordEncoder
-    @Bean
-    public AuthenticationManager authenticationManager(HttpSecurity http) throws Exception {
-        AuthenticationManagerBuilder authenticationManagerBuilder = http
-                .getSharedObject(AuthenticationManagerBuilder.class);
+                return authenticationManagerBuilder.build();
 
-        authenticationManagerBuilder
-                .userDetailsService(userDetailServiceImpl)
-                .passwordEncoder(passwordEncoder());
+        }
 
-        return authenticationManagerBuilder.build();
-
-    }
 }
+
+/*
+ * .formLogin(form -> form
+ * .loginPage("/login") // Configura tu página de inicio de sesión
+ * .permitAll()) // Permitir acceso a todos a la página de inicio de sesión
+ * .logout(logout -> logout
+ * .logoutUrl("/logout") // URL para cerrar sesión
+ * .logoutSuccessUrl("/login?logout=true") // Redirige aquí después de cerrar
+ * sesión
+ * .invalidateHttpSession(true) // Invalida la sesión HTTP
+ * .deleteCookies("JSESSIONID") // Opcional: elimina la cookie de sesión
+ * );
+ */

@@ -2,6 +2,7 @@ package com.arielZarate.springSecurityJwt.entity;
 
 import java.util.Collection;
 import java.util.Collections;
+
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -15,13 +16,10 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
+
 public class AuthDetailModel implements UserDetails {
 
 private User user;
-
-//private List<GrantedAuthority> authorities;
-
-
 
 
 @Override
@@ -57,6 +55,17 @@ public boolean isCredentialsNonExpired() {
 @Override
 public boolean isEnabled() {
     return true;
+}
+
+
+@Override
+public String toString() {
+    return "AuthDetailModel{" +
+            "id=" + user.getId() + 
+            ", email='" + user.getEmail() + '\'' +
+            ", roles=" + getAuthorities() + '\'' +
+            ", password=" + getPassword() +
+            '}';
 }
 
 }
